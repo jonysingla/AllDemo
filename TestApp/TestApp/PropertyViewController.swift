@@ -9,6 +9,10 @@ import UIKit
 
 class PropertyViewController: UIViewController {
     
+    
+    // Example 14 -- Global Variable
+    @CapitalNameValue var globalVar: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -74,17 +78,71 @@ class PropertyViewController: UIViewController {
         print(objNameValue)
         
         //Example 12 -- Projected Value
-//        @Email var email: String
+        var someStructure = SomeStructure()
+        someStructure.someNumber = 4
+        print(someStructure.$someNumber)
+        // Prints "false"
+        
+        someStructure.someNumber = 55
+        print(someStructure.$someNumber)
+        // Prints "true"
+        
+//        @CapitalNameProjectedValue var objNameProj : String
+//        objNameProj = "test"
+//
+//        print("objNameProj",objNameProj)
+//        print("", $objNameProj)
+//
+//        var someStructure = SomeStructure()
+//        someStructure.nameTest = "test"
+        
+//        print("objNameProj",someStructure.nameTest)
+//        print(someStructure.$nameTest)
+        
   
+       // Example 13 -- Local Variable
+        func exampleFunction() {
+            @CapitalNameValue var localVar: String = ""
+            // ...
+        }
+        
+        // Example 14 -- Global Variable
+        
+        // Example 15 -- Calling Type Property -- Static --  Accessing type properties
        
+        print(TypeProperty.someTypeProperty)    // Output: 42
+
+        TypeProperty.someTypeProperty = 100
+        print(TypeProperty.someTypeProperty)    // Output: 100
+
+        print(TypeProperty.computedTypeProperty) // Output: 100.0
+
+        TypeProperty.computedTypeProperty = 3.14
+        print(TypeProperty.someTypeProperty)    // Output: 3
+
+        // Example 16 -- Querying type property
+        struct SomeStruct {
+            static var someTypeProperty: Int = 42
+        }
+
+        // Querying the type property
+        let value = SomeStructQuerying.someTypeProperty
+        print(value)  // Output: 42
+
+        // Example 17 Setting type property
+        struct SomeStructQuerying {
+            static var someTypeProperty: Int = 42
+        }
+
+        // Setting the type property
+        SomeStructQuerying.someTypeProperty = 100
+
+        // Querying the updated value
+        let updatedValue = SomeStruct.someTypeProperty
+        print(updatedValue)  // Output: 100
         
         
-        
-        
-        //Computed Observer
-//        var objArea = Addition(objA: 3,objB: 6)
-//        print(objArea.area)
-        
+
         
         
 
@@ -93,14 +151,16 @@ class PropertyViewController: UIViewController {
         var objAccountHolderName = AccountHolderName()
         objAccountHolderName.objName?.accountHolderName = "Jony"
         
-        //Static Property
                 
     }
     //MARK: Copy-in copy out (In-Out Parameter)
     func someFunction(a: inout Int) {
         a += 1
     }
+
 }
+
+
 
 //MARK: Assigning Constant Properties without During Initialization
 class TestInitalizatierWithout {
@@ -182,7 +242,7 @@ class PropertyObserver {
 
 //MARK: Property Wrapper
 @propertyWrapper struct CapitalName {
-    private var name: String = ""
+    private var name = String()
     var wrappedValue : String {
         get { return name }
         set { name = newValue.capitalized }
@@ -203,48 +263,74 @@ class PropertyObserver {
     }
 }
 //MARK: Projected Value property wrapper
-//@propertyWrapper
-//struct EmailValidation {
-//    private var email: String
-//
-//    init(initialValue: String) {
-//        self.email = initialValue
-//    }
-//
-//    var wrappedValue: String {
-//        get { return email }
-//        set { email = newValue }
-//    }
-//
-//    // Projected value: Indicates whether the email is valid
-//    var isValidEmail: Bool {
-//        return isValidEmailFormat(email)
-//    }
-//
-//    private func isValidEmailFormat(_ email: String) -> Bool {
-//        // Simple email validation logic (you may want to use a more sophisticated method)
-//        let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
-//        let emailPredicate = NSPredicate(format:"SELF MATCHES %@", emailRegex)
-//        return emailPredicate.evaluate(with: email)
-//    }
-//}
-//
-//
-//struct User {
-//    @EmailValidation
-//    var email: String
-//}
+/*@propertyWrapper                          // this example showing a problem with $symbol
+struct CapitalNameProjectedValue {
+    private var name : String
+    private(set) var checkNameLength : Bool
+    
+    var wrappedValue : String {
+        get { return name }
+        set {
+            name = newValue.capitalized
+            if (name == "") {
+                checkNameLength = false
+            } else {
+                checkNameLength = true
+            }
+        }
+    }
+    
+    init() {
+            self.name = ""
+            self.checkNameLength = false
+        }
+}
 
-//struct Addition {
-//
-//    var objA = Int()
-//    var objB = Int()
-//
-//    var area : Int {
-//        objA + objB
-//    }
-//}
+struct SomeStructure {
+    @CapitalNameProjectedValue var nameTest: String
+}*/
 
+@propertyWrapper
+struct SmallNumber {
+    private var number: Int
+    private(set) var projectedValue: Bool
+    var wrappedValue: Int {
+        get { return number }
+        set {
+            if newValue > 12 {
+                number = 12
+                projectedValue = true
+            } else {
+                number = newValue
+                projectedValue = false
+            }
+        }
+    }
+
+    init() {
+        self.number = 0
+        self.projectedValue = false
+    }
+}
+
+struct SomeStructure {
+    @SmallNumber var someNumber: Int
+}
+//MARK: Type Property (Static)
+struct TypeProperty {
+    // Type property with a default value
+    static var someTypeProperty: Int = 42
+
+    // Type property with a getter and setter
+    static var computedTypeProperty: Double {
+        get {
+            return Double(someTypeProperty)
+        }
+        set {
+            someTypeProperty = Int(newValue)
+        }
+    }
+}
 
 
 
