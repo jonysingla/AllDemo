@@ -126,24 +126,19 @@ class PropertyViewController: UIViewController {
         }
 
         // Querying the type property
-        let value = SomeStructQuerying.someTypeProperty
-        print(value)  // Output: 42
-
-        // Example 17 Setting type property
         struct SomeStructQuerying {
             static var someTypeProperty: Int = 42
         }
-
-        // Setting the type property
+        
+        let value = SomeStructQuerying.someTypeProperty
+        print(value)  // Output: 42
+        
+        // Example 17 Setting type property
         SomeStructQuerying.someTypeProperty = 100
 
         // Querying the updated value
         let updatedValue = SomeStruct.someTypeProperty
         print(updatedValue)  // Output: 100
-        
-        
-
-        
         
 
         
