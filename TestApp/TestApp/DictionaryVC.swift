@@ -57,7 +57,11 @@ class DictionaryVC: UIViewController {
 //            print("The old value for DUB was \(oldValue).")
         }
 //        print("airports -- ", airports)
-        
+//        -------------------------------
+//        why update value return old value not new value -- don't know apple reason
+//        oldValue = airports.updateValue("Dublin Airport", forKey: "DUB")
+//        oldValue return old value not new value.
+//        -----------------------------
         
         // Example 6 -- Remove value in Dictionary assign Nil
 //        airports["LHR"] = nil
