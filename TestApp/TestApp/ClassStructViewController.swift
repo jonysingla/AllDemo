@@ -76,3 +76,20 @@ struct TestStruct {
     }
 }
 
+// -----------------------------------------------------------------------------------
+// MARK: Inheritance not supported by Struct
+struct ClassTest {
+}
+
+//struct ClassTestOne : ClassTest {
+//}
+
+class Parent {
+}
+
+class child : Parent {
+}
+
+// MARK: Type casting not supported by Struct
+//let v : UIView = UIButton()
+//(v as? UIButton)?.setTitle("Submit", for: .normal)
