@@ -37,6 +37,7 @@
 		F0DB78AB2B1739DC008FB987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DB78A92B1739DC008FB987 /* LaunchScreen.storyboard */; };
 		F0DCBB822B395A0B003BF2E9 /* MethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DCBB812B395A0B003BF2E9 /* MethodViewController.swift */; };
 		F0DCBB862B399ECD003BF2E9 /* UnqualifiedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DCBB852B399ECD003BF2E9 /* UnqualifiedVC.swift */; };
+		F0DCBB882B3AA1B2003BF2E9 /* SubscriptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DCBB872B3AA1B2003BF2E9 /* SubscriptVC.swift */; };
 		F0FFDFAA2B19D9E4004F0950 /* ConstantVariableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFDFA92B19D9E4004F0950 /* ConstantVariableVC.swift */; };
 		F0FFDFAC2B19E405004F0950 /* TupleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFDFAB2B19E405004F0950 /* TupleVC.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,7 @@
 		F0DB78AC2B1739DC008FB987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0DCBB812B395A0B003BF2E9 /* MethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodViewController.swift; sourceTree = "<group>"; };
 		F0DCBB852B399ECD003BF2E9 /* UnqualifiedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnqualifiedVC.swift; sourceTree = "<group>"; };
+		F0DCBB872B3AA1B2003BF2E9 /* SubscriptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptVC.swift; sourceTree = "<group>"; };
 		F0FFDFA92B19D9E4004F0950 /* ConstantVariableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantVariableVC.swift; sourceTree = "<group>"; };
 		F0FFDFAB2B19E405004F0950 /* TupleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleVC.swift; sourceTree = "<group>"; };
 		F0FFDFAD2B19FE10004F0950 /* OptionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				F0546DF42B25AFB10028D662 /* PropertyViewController.swift */,
 				F0DCBB812B395A0B003BF2E9 /* MethodViewController.swift */,
 				F0DCBB852B399ECD003BF2E9 /* UnqualifiedVC.swift */,
+				F0DCBB872B3AA1B2003BF2E9 /* SubscriptVC.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				F0546DF92B262CA50028D662 /* ProtocolViewController.swift in Sources */,
 				F0546DF72B261E740028D662 /* ClosureViewController.swift in Sources */,
 				F0546DF32B25AB170028D662 /* EscapingViewController.swift in Sources */,
+				F0DCBB882B3AA1B2003BF2E9 /* SubscriptVC.swift in Sources */,
 				F0546DF12B25A80F0028D662 /* DeinitalizeViewController.swift in Sources */,
 				F0546DEB2B21DA800028D662 /* ControlFlowVC.swift in Sources */,
 				F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */,
