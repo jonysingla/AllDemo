@@ -13,6 +13,8 @@
 		F0283B952B1DDCA4003AA403 /* StringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B942B1DDCA4003AA403 /* StringVC.swift */; };
 		F0283B972B1F32E4003AA403 /* ArrayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B962B1F32E4003AA403 /* ArrayVC.swift */; };
 		F03295182B467A77005D3C2E /* ErrorHandlingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03295172B467A77005D3C2E /* ErrorHandlingVC.swift */; };
+		F032951A2B46BB26005D3C2E /* ConcurrentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03295192B46BB26005D3C2E /* ConcurrentVC.swift */; };
+		F032951C2B47CB3E005D3C2E /* TaskGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F032951B2B47CB3E005D3C2E /* TaskGroupVC.swift */; };
 		F0546DE92B21C30B0028D662 /* DictionaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DE82B21C30B0028D662 /* DictionaryVC.swift */; };
 		F0546DEB2B21DA800028D662 /* ControlFlowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DEA2B21DA800028D662 /* ControlFlowVC.swift */; };
 		F0546DED2B232A2B0028D662 /* FunctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DEC2B232A2B0028D662 /* FunctionVC.swift */; };
@@ -53,6 +55,8 @@
 		F0283B942B1DDCA4003AA403 /* StringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringVC.swift; sourceTree = "<group>"; };
 		F0283B962B1F32E4003AA403 /* ArrayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayVC.swift; sourceTree = "<group>"; };
 		F03295172B467A77005D3C2E /* ErrorHandlingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingVC.swift; sourceTree = "<group>"; };
+		F03295192B46BB26005D3C2E /* ConcurrentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentVC.swift; sourceTree = "<group>"; };
+		F032951B2B47CB3E005D3C2E /* TaskGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupVC.swift; sourceTree = "<group>"; };
 		F0546DE82B21C30B0028D662 /* DictionaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryVC.swift; sourceTree = "<group>"; };
 		F0546DEA2B21DA800028D662 /* ControlFlowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowVC.swift; sourceTree = "<group>"; };
 		F0546DEC2B232A2B0028D662 /* FunctionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionVC.swift; sourceTree = "<group>"; };
@@ -158,6 +162,8 @@
 				F0546DF02B25A80F0028D662 /* DeinitalizeViewController.swift */,
 				F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */,
 				F03295172B467A77005D3C2E /* ErrorHandlingVC.swift */,
+				F03295192B46BB26005D3C2E /* ConcurrentVC.swift */,
+				F032951B2B47CB3E005D3C2E /* TaskGroupVC.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 				F0546DED2B232A2B0028D662 /* FunctionVC.swift in Sources */,
 				F0283B912B1DD3D9003AA403 /* IndentityOperatorVC.swift in Sources */,
 				F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */,
+				F032951A2B46BB26005D3C2E /* ConcurrentVC.swift in Sources */,
 				F0546DFD2B26D0320028D662 /* GenericViewController.swift in Sources */,
+				F032951C2B47CB3E005D3C2E /* TaskGroupVC.swift in Sources */,
 				F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */,
 				F0DB78A12B1739DA008FB987 /* SceneDelegate.swift in Sources */,
 			);
