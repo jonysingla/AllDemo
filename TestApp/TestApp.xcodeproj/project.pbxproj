@@ -31,6 +31,7 @@
 		F0727E6B2B2AF4EC006606C7 /* EnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0727E6A2B2AF4EC006606C7 /* EnumViewController.swift */; };
 		F0727E6D2B2B02F8006606C7 /* ImplicitExplicitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0727E6C2B2B02F8006606C7 /* ImplicitExplicitVC.swift */; };
 		F073C0FA2B4BC44E00542EBE /* ActorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073C0F92B4BC44E00542EBE /* ActorVC.swift */; };
+		F073C0FC2B4D060100542EBE /* MacroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073C0FB2B4D060100542EBE /* MacroVC.swift */; };
 		F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B02B3062630030422D /* ClassStructViewController.swift */; };
 		F08D03B32B30AF320030422D /* CallbyValueReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */; };
 		F0BFD26E2B4549DF00BF7DC6 /* OptionalChainingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */; };
@@ -74,6 +75,7 @@
 		F0727E6A2B2AF4EC006606C7 /* EnumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewController.swift; sourceTree = "<group>"; };
 		F0727E6C2B2B02F8006606C7 /* ImplicitExplicitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitExplicitVC.swift; sourceTree = "<group>"; };
 		F073C0F92B4BC44E00542EBE /* ActorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorVC.swift; sourceTree = "<group>"; };
+		F073C0FB2B4D060100542EBE /* MacroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroVC.swift; sourceTree = "<group>"; };
 		F08D03B02B3062630030422D /* ClassStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStructViewController.swift; sourceTree = "<group>"; };
 		F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbyValueReferenceViewController.swift; sourceTree = "<group>"; };
 		F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingVC.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				F03295192B46BB26005D3C2E /* ConcurrentVC.swift */,
 				F032951B2B47CB3E005D3C2E /* TaskGroupVC.swift */,
 				F073C0F92B4BC44E00542EBE /* ActorVC.swift */,
+				F073C0FB2B4D060100542EBE /* MacroVC.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				F0DCBB8A2B3ACF7E003BF2E9 /* OverLoadingRidingVC.swift in Sources */,
 				F0546DF52B25AFB10028D662 /* PropertyViewController.swift in Sources */,
 				F0546DE92B21C30B0028D662 /* DictionaryVC.swift in Sources */,
+				F073C0FC2B4D060100542EBE /* MacroVC.swift in Sources */,
 				F0FFDFAC2B19E405004F0950 /* TupleVC.swift in Sources */,
 				F0DB78A32B1739DA008FB987 /* ViewController.swift in Sources */,
 				F0546DED2B232A2B0028D662 /* FunctionVC.swift in Sources */,
