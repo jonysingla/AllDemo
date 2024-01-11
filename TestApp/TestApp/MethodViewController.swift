@@ -69,6 +69,10 @@ class MethodViewController: UIViewController {
         //
         let defaultReportOne = CustomReport.generateReport()
         print("Default Report One: \(defaultReportOne)")
+        
+        var obj = SomeClassTest()
+        SomeClassTest.someTypeMethod()
+        SomeClassTest.someTypeMethodName()
     }
 }
 
@@ -144,14 +148,14 @@ enum TriStateSwitch {
     }
 }
 
-//MARK: Type Method
+//MARK: Class Method
 class SomeClass {
     class func someTypeMethod() {                       // Class function can be override
         // type method implementation goes here
     }
 }
 
-//MARK: Type Method with static function
+//MARK: Type (static) Method with in Class
 class SomeClassOne {
     static func someTypeMethod() {                      // Static function can't be override
         print("Log Type Method with static function ")
@@ -177,7 +181,7 @@ struct SomeClassThree {
     }
 }
 
-//MARK: Type method with protoclo and extension
+//MARK: Type method with protocol and extension
 protocol Reportable {
     static func generateReport() -> String
 }
@@ -200,4 +204,13 @@ struct CustomReport: Reportable {
 }
 
 
-
+// Difference between class method and type method (Static)
+class SomeClassTest {
+    class func someTypeMethod() {
+        // type method implementation goes here
+    }
+    
+    static func someTypeMethodName() {
+        // type method implementation goes here
+    }
+}
