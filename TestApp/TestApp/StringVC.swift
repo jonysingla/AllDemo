@@ -91,7 +91,7 @@ class StringVC: UIViewController {
         print(greeting[index])
         
         
-        // Foundation Nsstring and String type cast using as keyword
+        // Foundation NSString and String type cast using as keyword
         var objString : String = "Hello"
         var objNSString : NSString = ""
         

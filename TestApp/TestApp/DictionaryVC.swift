@@ -85,7 +85,7 @@ class DictionaryVC: UIViewController {
 //            print("\(airportCode)")
         }
         
-        // Iteration over key
+        // Iteration over values
         for (airportName) in airports.values {
 //            print("\(airportName)")
         }

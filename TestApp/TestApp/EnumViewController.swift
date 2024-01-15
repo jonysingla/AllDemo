@@ -142,7 +142,7 @@ enum WeatherType {
 //    case sun, cloud, rain, wind, snow
 }
 
-//MARK: Without Computed property using enum using instance function
+//MARK: Without Computed property using enum, using instance function
 enum WeekdayWithout {
     case sunday
     case monday
@@ -195,7 +195,7 @@ enum ColorWithInitalizatier {
 }
 
 
-//MARK: Iteration in enum
+//MARK: Iteration in enum using key CaseIterable
 enum WeatherTypeIteration: CaseIterable {
     case sun
     case cloud

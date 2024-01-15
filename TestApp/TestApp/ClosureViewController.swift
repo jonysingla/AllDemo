@@ -102,7 +102,7 @@ class ClosureViewController: UIViewController {
         }
         closureWithCapture()
 
-        // Example 9 --MARK: Global Function with closure
+        // Example 9 --MARK: Global Function with closure ------------- Doubt
         let greetingClosure: (String) -> Void = { name in
             print("Hello, \(name)!")
         }
@@ -166,7 +166,7 @@ class ClosureViewController: UIViewController {
         value = "Android"
         myClosureCapture()
         
-        // Example 14 --MARK: Capture List []
+        // Example 14 --MARK: Capture List []       -- to overcome capture value problem we can used capture list.
         var strCaptureList = "Hello, World!"
         var valueList = "iOS"
         var myClosureCaptureList = { [strCaptureList, valueList] in
