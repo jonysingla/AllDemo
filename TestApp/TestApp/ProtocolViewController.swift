@@ -161,3 +161,4 @@ protocol Togglable {
 protocol initaliZeProtocol{
     init(someParameter: Int)
 }
+*/

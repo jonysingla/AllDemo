@@ -36,6 +36,7 @@
 		F08D03B32B30AF320030422D /* CallbyValueReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */; };
 		F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A42B5640160071400B /* NestedTypesVC.swift */; };
 		F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A62B5649450071400B /* ExtensionViewController.swift */; };
+		F0B0E4A92B5793720071400B /* ConvenienceInitializerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */; };
 		F0BFD26E2B4549DF00BF7DC6 /* OptionalChainingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */; };
 		F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB789E2B1739DA008FB987 /* AppDelegate.swift */; };
 		F0DB78A12B1739DA008FB987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB78A02B1739DA008FB987 /* SceneDelegate.swift */; };
@@ -82,6 +83,7 @@
 		F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbyValueReferenceViewController.swift; sourceTree = "<group>"; };
 		F0B0E4A42B5640160071400B /* NestedTypesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTypesVC.swift; sourceTree = "<group>"; };
 		F0B0E4A62B5649450071400B /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvenienceInitializerVC.swift; sourceTree = "<group>"; };
 		F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingVC.swift; sourceTree = "<group>"; };
 		F0DB789B2B1739DA008FB987 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DB789E2B1739DA008FB987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -159,11 +161,12 @@
 				F0DCBB852B399ECD003BF2E9 /* UnqualifiedVC.swift */,
 				F0DCBB872B3AA1B2003BF2E9 /* SubscriptVC.swift */,
 				F0DCBB8B2B3AE25B003BF2E9 /* InheritanceVC.swift */,
+				F068FBE82B272292004A71D5 /* InitalizatierVC.swift */,
+				F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */,
 				F0DB78A42B1739DA008FB987 /* Main.storyboard */,
 				F0DB78A72B1739DC008FB987 /* Assets.xcassets */,
 				F0DB78A92B1739DC008FB987 /* LaunchScreen.storyboard */,
 				F0DB78AC2B1739DC008FB987 /* Info.plist */,
-				F068FBE82B272292004A71D5 /* InitalizatierVC.swift */,
 				F0546DF82B262CA50028D662 /* ProtocolViewController.swift */,
 				F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */,
 				F0546DFC2B26D0320028D662 /* GenericViewController.swift */,
@@ -267,6 +270,7 @@
 				F0546DEF2B258EBC0028D662 /* SingletonViewController.swift in Sources */,
 				F0727E6D2B2B02F8006606C7 /* ImplicitExplicitVC.swift in Sources */,
 				F0546DFB2B26C6790028D662 /* HighOrderFunctionVC.swift in Sources */,
+				F0B0E4A92B5793720071400B /* ConvenienceInitializerVC.swift in Sources */,
 				F068FBEB2B27711C004A71D5 /* NilViewController.swift in Sources */,
 				F0DCBB822B395A0B003BF2E9 /* MethodViewController.swift in Sources */,
 				F073C0FA2B4BC44E00542EBE /* ActorVC.swift in Sources */,
