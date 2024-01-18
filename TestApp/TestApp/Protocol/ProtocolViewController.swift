@@ -123,6 +123,85 @@ class ProtocolViewController: UIViewController /*, SomeProtocol, PropertyProtoco
             print(level)
         }
         
+        //Example 11: Collection Protocol with Array Calling
+        var printableItems: [Printable] = [
+            Book(title: "Swift Programming"),
+            CarProtocol(brand: "Toyota"),
+            Book(title: "Design Patterns")
+        ]
+        // Iterate and call the protocol method
+        for item in printableItems {
+            item.printDescription()
+        }
+        
+        //Example 12: Multilevel Protocol Inheritance
+        let logger = LoggerInheritance()
+        logger.printDescription()  // Output: Logger's description
+        logger.logMessage()        // Output: Logging a message
+        
+        //Example 12.1: Multiple Protocol Inheritance
+        let guitarist = Guitarist(instrument: "Guitar")
+        guitarist.play()
+        guitarist.record()
+        
+        //Example 13: Class Only Protocol
+        var objMyClassOnlyProtocol = MyClassOnlyProtocol()
+        print("Class Only Protocol",objMyClassOnlyProtocol.doSomething())
+        
+        //Example 14: Composition Protocol
+        func wishHappyBirthday(to celebrator: Named & Aged) {
+            print("Happy birthday, \(celebrator.name), you're \(celebrator.age)!")
+        }
+        let birthdayPerson = PersonCompositionProtocol(name: "Malcolm", age: 21)
+        wishHappyBirthday(to: birthdayPerson)
+        
+        //Example 15: Conformance Protocol with is
+        let myBook = BookConformanceProtocol()
+
+        if myBook is PrintableConformanceProtocol {                        //return true or false value
+            print("myBook conforms to Printable")
+        } else {
+            print("myBook does not conform to Printable")
+        }
+        
+        //Example 15: Conformance Protocol with as? and as!
+        let myMusician: Any = MusicianConformanceProtocol()
+
+        // Using `as?` for conditional downcasting
+        if let playableInstance = myMusician as? PlayableConformanceProtocol {
+            print("myMusician conforms to Playable")
+            playableInstance.play()
+        } else {
+            print("myMusician does not conform to Playable")
+        }
+
+        // Using `as!` for forced downcasting
+        let forcedPlayableInstance = myMusician as! PlayableConformanceProtocol
+        forcedPlayableInstance.play()
+        
+        //Example 16: Optional Protocol
+        let myInstance = MyClassOptionalProtocol()
+        // Access the optional method
+        myInstance.optionalMethod()
+        // Access the optional property
+        print("",myInstance.optionalProperty)
+      
+        //Example 17: Protocol Extension
+        var objProtocolExtension = ProtocolExtensionVC()
+        objProtocolExtension.addition()
+        
+        //Example 17.1 Adding Constraints to Protocol Extensions
+        let equalNumbers = [100, 100, 100, 100, 100]
+        let differentNumbers = [100, 100, 200, 100, 200]
+        
+        print(equalNumbers.allEqual())
+        // Prints "true"
+        print(differentNumbers.allEqual())
+        // Prints "false"
+        
+        
+
+        
         
         
 //        let objViewController = ProtocolViewController()
@@ -214,42 +293,3 @@ class SomeClassInitalizatier: SomeProtocolInitializer {
         // initializer implementation goes here
     }
 }
-    
-
-
-
-
-
-
-
-
-
-/*
-//MARK: Protocol Syntax or Method Protocol
-@objc protocol SomeProtocol {
-    @objc optional func additionInteger()
-    
-}
-//MARK: Protocol Extension
-extension SomeProtocol {
-    func SubTractionInteger() {
-        print("Default implementation of doSomething")
-    }
-}
-//MARK: Property Protocol
-@objc protocol PropertyProtocol {
-    @objc optional var objA : String {get set}
-    @objc optional var objB : String {get set }
-}
-
-//MARK: Method Protocol
-protocol Togglable {
-    mutating func toggle()
-}
-
-//MARK: Initializer Requirement
-protocol initaliZeProtocol{
-    init(someParameter: Int)
-}
-*/
-

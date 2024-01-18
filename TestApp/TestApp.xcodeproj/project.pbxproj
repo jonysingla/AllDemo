@@ -41,6 +41,13 @@
 		F0B0E4AD2B57A5710071400B /* DelegateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4AC2B57A5710071400B /* DelegateVC.swift */; };
 		F0B0E4AF2B57B1190071400B /* ProtocolExtensinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4AE2B57B1190071400B /* ProtocolExtensinVC.swift */; };
 		F0B0E4B22B57F6D70071400B /* SynthesizedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4B12B57F6D70071400B /* SynthesizedProtocol.swift */; };
+		F0B0E4B42B58EE5A0071400B /* ProtocolCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4B32B58EE5A0071400B /* ProtocolCollectionVC.swift */; };
+		F0B0E4B62B58F20B0071400B /* ProtocolInheritanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4B52B58F20B0071400B /* ProtocolInheritanceVC.swift */; };
+		F0B0E4B82B58F8380071400B /* ClassOnlyProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4B72B58F8380071400B /* ClassOnlyProtocolVC.swift */; };
+		F0B0E4BA2B58FA150071400B /* CompositionProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4B92B58FA150071400B /* CompositionProtocolVC.swift */; };
+		F0B0E4BC2B59049C0071400B /* ConformanceProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4BB2B59049B0071400B /* ConformanceProtocolVC.swift */; };
+		F0B0E4BE2B590B9F0071400B /* OptionalProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4BD2B590B9F0071400B /* OptionalProtocolVC.swift */; };
+		F0B0E4C02B5915F50071400B /* ProtocolExtensionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4BF2B5915F50071400B /* ProtocolExtensionVC.swift */; };
 		F0BFD26E2B4549DF00BF7DC6 /* OptionalChainingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */; };
 		F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB789E2B1739DA008FB987 /* AppDelegate.swift */; };
 		F0DB78A12B1739DA008FB987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB78A02B1739DA008FB987 /* SceneDelegate.swift */; };
@@ -92,6 +99,13 @@
 		F0B0E4AC2B57A5710071400B /* DelegateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateVC.swift; sourceTree = "<group>"; };
 		F0B0E4AE2B57B1190071400B /* ProtocolExtensinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensinVC.swift; sourceTree = "<group>"; };
 		F0B0E4B12B57F6D70071400B /* SynthesizedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthesizedProtocol.swift; sourceTree = "<group>"; };
+		F0B0E4B32B58EE5A0071400B /* ProtocolCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolCollectionVC.swift; sourceTree = "<group>"; };
+		F0B0E4B52B58F20B0071400B /* ProtocolInheritanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolInheritanceVC.swift; sourceTree = "<group>"; };
+		F0B0E4B72B58F8380071400B /* ClassOnlyProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassOnlyProtocolVC.swift; sourceTree = "<group>"; };
+		F0B0E4B92B58FA150071400B /* CompositionProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionProtocolVC.swift; sourceTree = "<group>"; };
+		F0B0E4BB2B59049B0071400B /* ConformanceProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConformanceProtocolVC.swift; sourceTree = "<group>"; };
+		F0B0E4BD2B590B9F0071400B /* OptionalProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalProtocolVC.swift; sourceTree = "<group>"; };
+		F0B0E4BF2B5915F50071400B /* ProtocolExtensionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensionVC.swift; sourceTree = "<group>"; };
 		F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingVC.swift; sourceTree = "<group>"; };
 		F0DB789B2B1739DA008FB987 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DB789E2B1739DA008FB987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +144,13 @@
 				F0B0E4AC2B57A5710071400B /* DelegateVC.swift */,
 				F0B0E4AE2B57B1190071400B /* ProtocolExtensinVC.swift */,
 				F0B0E4B12B57F6D70071400B /* SynthesizedProtocol.swift */,
+				F0B0E4B32B58EE5A0071400B /* ProtocolCollectionVC.swift */,
+				F0B0E4B52B58F20B0071400B /* ProtocolInheritanceVC.swift */,
+				F0B0E4B72B58F8380071400B /* ClassOnlyProtocolVC.swift */,
+				F0B0E4B92B58FA150071400B /* CompositionProtocolVC.swift */,
+				F0B0E4BB2B59049B0071400B /* ConformanceProtocolVC.swift */,
+				F0B0E4BD2B590B9F0071400B /* OptionalProtocolVC.swift */,
+				F0B0E4BF2B5915F50071400B /* ProtocolExtensionVC.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -277,20 +298,24 @@
 				F068FBE92B272292004A71D5 /* InitalizatierVC.swift in Sources */,
 				F0546DF92B262CA50028D662 /* ProtocolViewController.swift in Sources */,
 				F0546DF72B261E740028D662 /* ClosureViewController.swift in Sources */,
+				F0B0E4BA2B58FA150071400B /* CompositionProtocolVC.swift in Sources */,
 				F0546DF32B25AB170028D662 /* EscapingViewController.swift in Sources */,
 				F0DCBB882B3AA1B2003BF2E9 /* SubscriptVC.swift in Sources */,
 				F0546DF12B25A80F0028D662 /* DeinitalizeViewController.swift in Sources */,
 				F03295182B467A77005D3C2E /* ErrorHandlingVC.swift in Sources */,
 				F0546DEB2B21DA800028D662 /* ControlFlowVC.swift in Sources */,
+				F0B0E4BE2B590B9F0071400B /* OptionalProtocolVC.swift in Sources */,
 				F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */,
 				F0BFD26E2B4549DF00BF7DC6 /* OptionalChainingVC.swift in Sources */,
 				F0DCBB862B399ECD003BF2E9 /* UnqualifiedVC.swift in Sources */,
 				F0727E6B2B2AF4EC006606C7 /* EnumViewController.swift in Sources */,
 				F08D03B32B30AF320030422D /* CallbyValueReferenceViewController.swift in Sources */,
+				F0B0E4BC2B59049C0071400B /* ConformanceProtocolVC.swift in Sources */,
 				F0546DEF2B258EBC0028D662 /* SingletonViewController.swift in Sources */,
 				F0727E6D2B2B02F8006606C7 /* ImplicitExplicitVC.swift in Sources */,
 				F0546DFB2B26C6790028D662 /* HighOrderFunctionVC.swift in Sources */,
 				F0B0E4A92B5793720071400B /* ConvenienceInitializerVC.swift in Sources */,
+				F0B0E4C02B5915F50071400B /* ProtocolExtensionVC.swift in Sources */,
 				F068FBEB2B27711C004A71D5 /* NilViewController.swift in Sources */,
 				F0DCBB822B395A0B003BF2E9 /* MethodViewController.swift in Sources */,
 				F0B0E4AB2B579B680071400B /* OpaqueTypeVC.swift in Sources */,
@@ -302,6 +327,7 @@
 				F0B0E4AF2B57B1190071400B /* ProtocolExtensinVC.swift in Sources */,
 				F00C634E2B1F40E60032363B /* SetVC.swift in Sources */,
 				F0FFDFAA2B19D9E4004F0950 /* ConstantVariableVC.swift in Sources */,
+				F0B0E4B42B58EE5A0071400B /* ProtocolCollectionVC.swift in Sources */,
 				F0DCBB8A2B3ACF7E003BF2E9 /* OverLoadingRidingVC.swift in Sources */,
 				F0546DF52B25AFB10028D662 /* PropertyViewController.swift in Sources */,
 				F0B0E4AD2B57A5710071400B /* DelegateVC.swift in Sources */,
@@ -312,11 +338,13 @@
 				F0546DED2B232A2B0028D662 /* FunctionVC.swift in Sources */,
 				F0283B912B1DD3D9003AA403 /* IndentityOperatorVC.swift in Sources */,
 				F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */,
+				F0B0E4B82B58F8380071400B /* ClassOnlyProtocolVC.swift in Sources */,
 				F032951A2B46BB26005D3C2E /* ConcurrentVC.swift in Sources */,
 				F0546DFD2B26D0320028D662 /* GenericViewController.swift in Sources */,
 				F032951C2B47CB3E005D3C2E /* TaskGroupVC.swift in Sources */,
 				F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */,
 				F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */,
+				F0B0E4B62B58F20B0071400B /* ProtocolInheritanceVC.swift in Sources */,
 				F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */,
 				F0DB78A12B1739DA008FB987 /* SceneDelegate.swift in Sources */,
 			);
