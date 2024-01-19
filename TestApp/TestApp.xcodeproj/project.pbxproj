@@ -28,6 +28,10 @@
 		F0546DFD2B26D0320028D662 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DFC2B26D0320028D662 /* GenericViewController.swift */; };
 		F068FBE92B272292004A71D5 /* InitalizatierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068FBE82B272292004A71D5 /* InitalizatierVC.swift */; };
 		F068FBEB2B27711C004A71D5 /* NilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068FBEA2B27711C004A71D5 /* NilViewController.swift */; };
+		F06A381B2B5A94C500C321BB /* GenericWithReturnValueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A381A2B5A94C500C321BB /* GenericWithReturnValueVC.swift */; };
+		F06A381D2B5A956700C321BB /* GenericTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A381C2B5A956700C321BB /* GenericTypeVC.swift */; };
+		F06A381F2B5A967C00C321BB /* ExtensionGenericVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A381E2B5A967C00C321BB /* ExtensionGenericVC.swift */; };
+		F06A38212B5A993E00C321BB /* GenericTypeConstraintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A38202B5A993E00C321BB /* GenericTypeConstraintVC.swift */; };
 		F0727E6B2B2AF4EC006606C7 /* EnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0727E6A2B2AF4EC006606C7 /* EnumViewController.swift */; };
 		F0727E6D2B2B02F8006606C7 /* ImplicitExplicitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0727E6C2B2B02F8006606C7 /* ImplicitExplicitVC.swift */; };
 		F073C0FA2B4BC44E00542EBE /* ActorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073C0F92B4BC44E00542EBE /* ActorVC.swift */; };
@@ -87,6 +91,10 @@
 		F0546DFC2B26D0320028D662 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
 		F068FBE82B272292004A71D5 /* InitalizatierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitalizatierVC.swift; sourceTree = "<group>"; };
 		F068FBEA2B27711C004A71D5 /* NilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NilViewController.swift; sourceTree = "<group>"; };
+		F06A381A2B5A94C500C321BB /* GenericWithReturnValueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWithReturnValueVC.swift; sourceTree = "<group>"; };
+		F06A381C2B5A956700C321BB /* GenericTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTypeVC.swift; sourceTree = "<group>"; };
+		F06A381E2B5A967C00C321BB /* ExtensionGenericVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionGenericVC.swift; sourceTree = "<group>"; };
+		F06A38202B5A993E00C321BB /* GenericTypeConstraintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTypeConstraintVC.swift; sourceTree = "<group>"; };
 		F0727E6A2B2AF4EC006606C7 /* EnumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewController.swift; sourceTree = "<group>"; };
 		F0727E6C2B2B02F8006606C7 /* ImplicitExplicitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitExplicitVC.swift; sourceTree = "<group>"; };
 		F073C0F92B4BC44E00542EBE /* ActorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorVC.swift; sourceTree = "<group>"; };
@@ -138,6 +146,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F06A38192B5A947700C321BB /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				F0546DFC2B26D0320028D662 /* GenericViewController.swift */,
+				F06A381A2B5A94C500C321BB /* GenericWithReturnValueVC.swift */,
+				F06A381C2B5A956700C321BB /* GenericTypeVC.swift */,
+				F06A381E2B5A967C00C321BB /* ExtensionGenericVC.swift */,
+				F06A38202B5A993E00C321BB /* GenericTypeConstraintVC.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
 		F0B0E4B02B57B1260071400B /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,7 +232,7 @@
 				F0DB78AC2B1739DC008FB987 /* Info.plist */,
 				F0B0E4B02B57B1260071400B /* Protocol */,
 				F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */,
-				F0546DFC2B26D0320028D662 /* GenericViewController.swift */,
+				F06A38192B5A947700C321BB /* Generic */,
 				F0546DF02B25A80F0028D662 /* DeinitalizeViewController.swift */,
 				F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */,
 				F03295172B467A77005D3C2E /* ErrorHandlingVC.swift */,
@@ -304,10 +324,12 @@
 				F0B0E4C22B59355E0071400B /* TypeCastingVC.swift in Sources */,
 				F0B0E4BA2B58FA150071400B /* CompositionProtocolVC.swift in Sources */,
 				F0546DF32B25AB170028D662 /* EscapingViewController.swift in Sources */,
+				F06A381F2B5A967C00C321BB /* ExtensionGenericVC.swift in Sources */,
 				F0DCBB882B3AA1B2003BF2E9 /* SubscriptVC.swift in Sources */,
 				F0546DF12B25A80F0028D662 /* DeinitalizeViewController.swift in Sources */,
 				F03295182B467A77005D3C2E /* ErrorHandlingVC.swift in Sources */,
 				F0546DEB2B21DA800028D662 /* ControlFlowVC.swift in Sources */,
+				F06A38212B5A993E00C321BB /* GenericTypeConstraintVC.swift in Sources */,
 				F0B0E4BE2B590B9F0071400B /* OptionalProtocolVC.swift in Sources */,
 				F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */,
 				F0BFD26E2B4549DF00BF7DC6 /* OptionalChainingVC.swift in Sources */,
@@ -348,6 +370,8 @@
 				F032951C2B47CB3E005D3C2E /* TaskGroupVC.swift in Sources */,
 				F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */,
 				F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */,
+				F06A381D2B5A956700C321BB /* GenericTypeVC.swift in Sources */,
+				F06A381B2B5A94C500C321BB /* GenericWithReturnValueVC.swift in Sources */,
 				F0B0E4B62B58F20B0071400B /* ProtocolInheritanceVC.swift in Sources */,
 				F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */,
 				F0DB78A12B1739DA008FB987 /* SceneDelegate.swift in Sources */,
