@@ -102,17 +102,17 @@ class OptionalChainingVC: UIViewController {
         
         // Example 8 -- Chaining on Methods with Optional Return Values Calling
         
-//        let calculatorOptional = CalculatorOptional()
-//
-//        // Chaining methods with optional return values
-//        let result = calculatorOptional.add(5, 3)?.minus(2, 1)?.multiply(4, 2)
-//
-//        // Printing the result
-//        if let finalResult = result {
-//            print("Final Result: \(finalResult)")
-//        } else {
-//            print("The result is nil at some point in the chain.")
-//        }
+        let person: PersonChaining? = PersonChaining(name: "John", address: AddressChaining(street: "123 Main St", city: "Cityville"))
+
+        // Optional chaining to access properties on optional values
+        let city = person?.address?.city
+
+        // Optional chaining with a method that returns an optional value
+        let uppercaseName = person?.name.uppercased()
+
+        print(city)          // Output: Optional("Cityville")
+        print(uppercaseName) // Output: Optional("JOHN")
+
     }
 }
 
@@ -194,17 +194,13 @@ class Family {
 }
 
 //MARK: Chaining on Methods with Optional Return Values
-class CalculatorOptional {
-    func add(_ a: Int, _ b: Int) -> Int? {
-        return a + b
-    }
+struct PersonChaining {
+    var name: String
+    var address: AddressChaining?
+}
 
-    func minus(_ a: Int, _ b: Int) -> Int? {
-        return a - b
-    }
-
-    func multiply(_ a: Int, _ b: Int) -> Int? {
-        return a * b
-    }
+struct AddressChaining {
+    var street: String
+    var city: String
 }
 
