@@ -66,6 +66,7 @@
 		F0DCBB8A2B3ACF7E003BF2E9 /* OverLoadingRidingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DCBB892B3ACF7E003BF2E9 /* OverLoadingRidingVC.swift */; };
 		F0DCBB8C2B3AE25B003BF2E9 /* InheritanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DCBB8B2B3AE25B003BF2E9 /* InheritanceVC.swift */; };
 		F0FF49142B5E331F003BA40D /* AssociatedTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FF49132B5E331F003BA40D /* AssociatedTypeVC.swift */; };
+		F0FF49162B5E5E25003BA40D /* GenericWhereClauseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FF49152B5E5E25003BA40D /* GenericWhereClauseVC.swift */; };
 		F0FFDFAA2B19D9E4004F0950 /* ConstantVariableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFDFA92B19D9E4004F0950 /* ConstantVariableVC.swift */; };
 		F0FFDFAC2B19E405004F0950 /* TupleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FFDFAB2B19E405004F0950 /* TupleVC.swift */; };
 /* End PBXBuildFile section */
@@ -132,6 +133,7 @@
 		F0DCBB892B3ACF7E003BF2E9 /* OverLoadingRidingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverLoadingRidingVC.swift; sourceTree = "<group>"; };
 		F0DCBB8B2B3AE25B003BF2E9 /* InheritanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InheritanceVC.swift; sourceTree = "<group>"; };
 		F0FF49132B5E331F003BA40D /* AssociatedTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociatedTypeVC.swift; sourceTree = "<group>"; };
+		F0FF49152B5E5E25003BA40D /* GenericWhereClauseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWhereClauseVC.swift; sourceTree = "<group>"; };
 		F0FFDFA92B19D9E4004F0950 /* ConstantVariableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantVariableVC.swift; sourceTree = "<group>"; };
 		F0FFDFAB2B19E405004F0950 /* TupleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleVC.swift; sourceTree = "<group>"; };
 		F0FFDFAD2B19FE10004F0950 /* OptionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				F06A381E2B5A967C00C321BB /* ExtensionGenericVC.swift */,
 				F06A38202B5A993E00C321BB /* GenericTypeConstraintVC.swift */,
 				F0FF49132B5E331F003BA40D /* AssociatedTypeVC.swift */,
+				F0FF49152B5E5E25003BA40D /* GenericWhereClauseVC.swift */,
 			);
 			path = Generic;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				F0FF49142B5E331F003BA40D /* AssociatedTypeVC.swift in Sources */,
 				F0FFDFAA2B19D9E4004F0950 /* ConstantVariableVC.swift in Sources */,
 				F0B0E4B42B58EE5A0071400B /* ProtocolCollectionVC.swift in Sources */,
+				F0FF49162B5E5E25003BA40D /* GenericWhereClauseVC.swift in Sources */,
 				F0DCBB8A2B3ACF7E003BF2E9 /* OverLoadingRidingVC.swift in Sources */,
 				F0546DF52B25AFB10028D662 /* PropertyViewController.swift in Sources */,
 				F0B0E4AD2B57A5710071400B /* DelegateVC.swift in Sources */,
