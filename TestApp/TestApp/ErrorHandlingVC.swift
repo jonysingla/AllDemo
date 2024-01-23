@@ -46,6 +46,14 @@ class ErrorHandlingVC: UIViewController {
         } else {
             print("Result 1 is nil.")
         }
+        
+        //With Optional
+        let result = try? divide(5, by: 110)   // Return nil because of value
+        print("Result: \(result)")
+        
+        //Try with !
+        let result5 = try! divide(5, by: 10)        // Run time error
+        print("result5: \(result5)")
     }
 }
 
