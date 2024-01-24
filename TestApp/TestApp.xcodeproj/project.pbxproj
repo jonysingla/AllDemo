@@ -150,6 +150,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F01515152B60D239005838B2 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				F03295192B46BB26005D3C2E /* ConcurrentVC.swift */,
+				F073C0F92B4BC44E00542EBE /* ActorVC.swift */,
+				F032951B2B47CB3E005D3C2E /* TaskGroupVC.swift */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
 		F06A38192B5A947700C321BB /* Generic */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,16 +249,14 @@
 				F0DB78A72B1739DC008FB987 /* Assets.xcassets */,
 				F0DB78A92B1739DC008FB987 /* LaunchScreen.storyboard */,
 				F0DB78AC2B1739DC008FB987 /* Info.plist */,
-				F03295192B46BB26005D3C2E /* ConcurrentVC.swift */,
-				F0B0E4B02B57B1260071400B /* Protocol */,
-				F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */,
-				F06A38192B5A947700C321BB /* Generic */,
-				F0B0E4C12B59355E0071400B /* TypeCastingVC.swift */,
-				F032951B2B47CB3E005D3C2E /* TaskGroupVC.swift */,
-				F073C0F92B4BC44E00542EBE /* ActorVC.swift */,
+				F01515152B60D239005838B2 /* Concurrency */,
 				F073C0FB2B4D060100542EBE /* MacroVC.swift */,
+				F0B0E4C12B59355E0071400B /* TypeCastingVC.swift */,
 				F0B0E4A42B5640160071400B /* NestedTypesVC.swift */,
 				F0B0E4A62B5649450071400B /* ExtensionViewController.swift */,
+				F0B0E4B02B57B1260071400B /* Protocol */,
+				F06A38192B5A947700C321BB /* Generic */,
+				F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
