@@ -56,6 +56,16 @@ class ClosureViewController: UIViewController {
         }
         simpleClosure()
         
+        // Example 1.1 Simple Closure without parameter with return type String
+         var obj: () -> String
+         // Assign a closure to the variable
+         obj = {
+         return "Hello, World!"
+         }
+         // Call the closure through the variable
+         let result = obj()
+         print(result)  // Output: Hello, World!
+        
         // Example 2 -- MARK: Closure with parameter as String, Return type Void with "in"
         let closureWithParameter: (String) -> Void = { _ in
             print("Closure with Parameter")
