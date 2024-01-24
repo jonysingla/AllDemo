@@ -160,6 +160,16 @@
 			path = Concurrency;
 			sourceTree = "<group>";
 		};
+		F01515162B60D3F3005838B2 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				F0283B962B1F32E4003AA403 /* ArrayVC.swift */,
+				F00C634D2B1F40E60032363B /* SetVC.swift */,
+				F0546DE82B21C30B0028D662 /* DictionaryVC.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
 		F06A38192B5A947700C321BB /* Generic */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,9 +232,7 @@
 				F0283B902B1DD3D9003AA403 /* IndentityOperatorVC.swift */,
 				F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */,
 				F0283B942B1DDCA4003AA403 /* StringVC.swift */,
-				F0283B962B1F32E4003AA403 /* ArrayVC.swift */,
-				F00C634D2B1F40E60032363B /* SetVC.swift */,
-				F0546DE82B21C30B0028D662 /* DictionaryVC.swift */,
+				F01515162B60D3F3005838B2 /* Collection */,
 				F0727E6C2B2B02F8006606C7 /* ImplicitExplicitVC.swift */,
 				F0546DEA2B21DA800028D662 /* ControlFlowVC.swift */,
 				F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */,
