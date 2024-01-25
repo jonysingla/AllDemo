@@ -7,7 +7,7 @@
 
 import UIKit
 
-class IndentityOperatorVC: UIViewController {
+class IdentityOperatorVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

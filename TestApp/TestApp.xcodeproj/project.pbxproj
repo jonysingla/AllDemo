@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F00C634E2B1F40E60032363B /* SetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00C634D2B1F40E60032363B /* SetVC.swift */; };
 		F01515182B612717005838B2 /* ARCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01515172B612717005838B2 /* ARCViewController.swift */; };
-		F0283B912B1DD3D9003AA403 /* IndentityOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B902B1DD3D9003AA403 /* IndentityOperatorVC.swift */; };
+		F0283B912B1DD3D9003AA403 /* IdentityOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */; };
 		F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */; };
 		F0283B952B1DDCA4003AA403 /* StringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B942B1DDCA4003AA403 /* StringVC.swift */; };
 		F0283B972B1F32E4003AA403 /* ArrayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B962B1F32E4003AA403 /* ArrayVC.swift */; };
@@ -75,7 +75,7 @@
 /* Begin PBXFileReference section */
 		F00C634D2B1F40E60032363B /* SetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetVC.swift; sourceTree = "<group>"; };
 		F01515172B612717005838B2 /* ARCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCViewController.swift; sourceTree = "<group>"; };
-		F0283B902B1DD3D9003AA403 /* IndentityOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndentityOperatorVC.swift; sourceTree = "<group>"; };
+		F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityOperatorVC.swift; sourceTree = "<group>"; };
 		F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
 		F0283B942B1DDCA4003AA403 /* StringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringVC.swift; sourceTree = "<group>"; };
 		F0283B962B1F32E4003AA403 /* ArrayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayVC.swift; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 				F0FFDFAB2B19E405004F0950 /* TupleVC.swift */,
 				F0FFDFAD2B19FE10004F0950 /* OptionalViewController.swift */,
 				F068FBEA2B27711C004A71D5 /* NilViewController.swift */,
-				F0283B902B1DD3D9003AA403 /* IndentityOperatorVC.swift */,
+				F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */,
 				F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */,
 				F0283B942B1DDCA4003AA403 /* StringVC.swift */,
 				F01515162B60D3F3005838B2 /* Collection */,
@@ -255,11 +255,11 @@
 				F0546DF02B25A80F0028D662 /* DeinitalizeViewController.swift */,
 				F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */,
 				F03295172B467A77005D3C2E /* ErrorHandlingVC.swift */,
+				F01515152B60D239005838B2 /* Concurrency */,
 				F0DB78A42B1739DA008FB987 /* Main.storyboard */,
 				F0DB78A72B1739DC008FB987 /* Assets.xcassets */,
 				F0DB78A92B1739DC008FB987 /* LaunchScreen.storyboard */,
 				F0DB78AC2B1739DC008FB987 /* Info.plist */,
-				F01515152B60D239005838B2 /* Concurrency */,
 				F073C0FB2B4D060100542EBE /* MacroVC.swift */,
 				F0B0E4C12B59355E0071400B /* TypeCastingVC.swift */,
 				F0B0E4A42B5640160071400B /* NestedTypesVC.swift */,
@@ -390,7 +390,7 @@
 				F0FFDFAC2B19E405004F0950 /* TupleVC.swift in Sources */,
 				F0DB78A32B1739DA008FB987 /* ViewController.swift in Sources */,
 				F0546DED2B232A2B0028D662 /* FunctionVC.swift in Sources */,
-				F0283B912B1DD3D9003AA403 /* IndentityOperatorVC.swift in Sources */,
+				F0283B912B1DD3D9003AA403 /* IdentityOperatorVC.swift in Sources */,
 				F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */,
 				F0B0E4B82B58F8380071400B /* ClassOnlyProtocolVC.swift in Sources */,
 				F032951A2B46BB26005D3C2E /* ConcurrentVC.swift in Sources */,
