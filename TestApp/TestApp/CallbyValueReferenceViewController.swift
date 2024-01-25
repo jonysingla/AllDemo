@@ -13,6 +13,7 @@ class CallbyValueReferenceViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        //Example 1: Calling Call by Value
         var objTestStructOne = TestStructOne()
         var objTwo = objTestStructOne
         objTwo.height = 40
@@ -20,7 +21,7 @@ class CallbyValueReferenceViewController: UIViewController {
         print("objTestStructOne",objTestStructOne.height)
         print("objTwo",objTwo.height)
         
-        //////////////////////----------------------------------
+        //Example 2: Calling Call by Reference
         var objTestClasstOne = TestClassOne()
         var objThree = objTestClasstOne
         objThree.width = 50
@@ -29,10 +30,11 @@ class CallbyValueReferenceViewController: UIViewController {
         print("objThree",objThree.width)
     }
 }
-
+//MARK: Call by Value
 struct TestStructOne {
     var height = 10
 }
+//MARK: Call by Reference
 class TestClassOne {
     var width = 20
 }
