@@ -51,6 +51,24 @@ class ARCViewController: UIViewController {
         
         johnCustomer = nil
         
+        //Example 5 -- Unowned Optional Reference
+        let department = Department(name: "Horticulture")
+
+        let intro = Course(name: "Survey of Plants", in: department)
+        let intermediate = Course(name: "Growing Common Herbs", in: department)
+        let advanced = Course(name: "Caring for Tropical Plants", in: department)
+
+        intro.nextCourse = intermediate
+        intermediate.nextCourse = advanced
+        
+        department.courses = [intro, intermediate, advanced]
+        for course in department.courses {
+            print("Course -- \(course.name),", "Department -- \(course.department.name),", "Next Course -- \(String(describing: course.nextCourse?.name))\n")
+        }
+        
+        //Example 6 -- Unowned References and Implicitly Unwrapped Optional Properties
+        var country = Country(name: "India", capitalName: "Delhi")
+        print("\(country.name)'s capital city is called \(country.capitalCity.name)")
         
     }
 }
@@ -100,7 +118,6 @@ class Customer {
     deinit { print("\(name) is being deinitialized") }
 }
 
-
 class CreditCard {
     let number: UInt64
     unowned let customer: Customer?
@@ -109,4 +126,44 @@ class CreditCard {
         self.customer = customer
     }
     deinit { print("Card #\(number) is being deinitialized") }
+}
+
+//MARK: 5 Unowned Optional Reference
+class Department {
+    var name: String
+    var courses: [Course]
+    init(name: String) {
+        self.name = name
+        self.courses = []
+    }
+}
+
+class Course {
+    var name: String
+    unowned var department: Department
+    unowned var nextCourse: Course?
+    init(name: String, in department: Department) {
+        self.name = name
+        self.department = department
+        self.nextCourse = nil
+    }
+}
+//MARK: 6 Unowned References and Implicitly Unwrapped Optional Properties
+class Country {
+    let name: String
+    var capitalCity: City!
+    init(name: String, capitalName: String) {
+        self.name = name
+        self.capitalCity = City(name: capitalName, country: self)
+    }
+}
+
+
+class City {
+    let name: String
+    unowned let country: Country
+    init(name: String, country: Country) {
+        self.name = name
+        self.country = country
+    }
 }
