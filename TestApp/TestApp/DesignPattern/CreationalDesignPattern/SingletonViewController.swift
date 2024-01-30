@@ -41,3 +41,14 @@ struct MyStructSingleton {
         print("very well")
     }
 }
+//MARK: Singleton Design Pattern -- We can also create as below also
+class CarSingletonSimple {
+    static let sharedInstance = CarSingletonSimple()
+}
+
+class CarSingleton {
+    static let sharedInstance: CarSingleton = {
+        let instance = CarSingleton()
+        return instance
+    }()
+}

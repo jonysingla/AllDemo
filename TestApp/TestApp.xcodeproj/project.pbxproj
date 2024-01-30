@@ -58,6 +58,10 @@
 		F0C1A69D2B678DA4007E8A43 /* ARCClosureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A69C2B678DA4007E8A43 /* ARCClosureVC.swift */; };
 		F0C1A69F2B67D1C4007E8A43 /* MemorySafetyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A69E2B67D1C4007E8A43 /* MemorySafetyVC.swift */; };
 		F0C1A6A12B6911BB007E8A43 /* AccessLevelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A6A02B6911BB007E8A43 /* AccessLevelVC.swift */; };
+		F0C1A6A72B695CF1007E8A43 /* FactoryMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A6A62B695CF1007E8A43 /* FactoryMethodVC.swift */; };
+		F0C1A6A92B6961DA007E8A43 /* AbstractFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A6A82B6961DA007E8A43 /* AbstractFactoryVC.swift */; };
+		F0C1A6AB2B6966A5007E8A43 /* BuilderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A6AA2B6966A5007E8A43 /* BuilderVC.swift */; };
+		F0C1A6AD2B696BDF007E8A43 /* PrototypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A6AC2B696BDF007E8A43 /* PrototypeVC.swift */; };
 		F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB789E2B1739DA008FB987 /* AppDelegate.swift */; };
 		F0DB78A12B1739DA008FB987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB78A02B1739DA008FB987 /* SceneDelegate.swift */; };
 		F0DB78A32B1739DA008FB987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB78A22B1739DA008FB987 /* ViewController.swift */; };
@@ -127,6 +131,10 @@
 		F0C1A69C2B678DA4007E8A43 /* ARCClosureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCClosureVC.swift; sourceTree = "<group>"; };
 		F0C1A69E2B67D1C4007E8A43 /* MemorySafetyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorySafetyVC.swift; sourceTree = "<group>"; };
 		F0C1A6A02B6911BB007E8A43 /* AccessLevelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLevelVC.swift; sourceTree = "<group>"; };
+		F0C1A6A62B695CF1007E8A43 /* FactoryMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodVC.swift; sourceTree = "<group>"; };
+		F0C1A6A82B6961DA007E8A43 /* AbstractFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryVC.swift; sourceTree = "<group>"; };
+		F0C1A6AA2B6966A5007E8A43 /* BuilderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderVC.swift; sourceTree = "<group>"; };
+		F0C1A6AC2B696BDF007E8A43 /* PrototypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeVC.swift; sourceTree = "<group>"; };
 		F0DB789B2B1739DA008FB987 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DB789E2B1739DA008FB987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0DB78A02B1739DA008FB987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -220,6 +228,42 @@
 			path = ARC;
 			sourceTree = "<group>";
 		};
+		F0C1A6A22B695BD0007E8A43 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F0C1A6A32B695BDE007E8A43 /* CreationalDesignPattern */,
+				F0C1A6A42B695BF1007E8A43 /* BehaviouralDesignPattern */,
+				F0C1A6A52B695C03007E8A43 /* StructuralDesignPattern */,
+			);
+			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		F0C1A6A32B695BDE007E8A43 /* CreationalDesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F0C1A6A62B695CF1007E8A43 /* FactoryMethodVC.swift */,
+				F0C1A6A82B6961DA007E8A43 /* AbstractFactoryVC.swift */,
+				F0C1A6AA2B6966A5007E8A43 /* BuilderVC.swift */,
+				F0C1A6AC2B696BDF007E8A43 /* PrototypeVC.swift */,
+				F0546DEE2B258EBC0028D662 /* SingletonViewController.swift */,
+			);
+			path = CreationalDesignPattern;
+			sourceTree = "<group>";
+		};
+		F0C1A6A42B695BF1007E8A43 /* BehaviouralDesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BehaviouralDesignPattern;
+			sourceTree = "<group>";
+		};
+		F0C1A6A52B695C03007E8A43 /* StructuralDesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StructuralDesignPattern;
+			sourceTree = "<group>";
+		};
 		F0DB78922B1739DA008FB987 = {
 			isa = PBXGroup;
 			children = (
@@ -259,7 +303,6 @@
 				F0727E6A2B2AF4EC006606C7 /* EnumViewController.swift */,
 				F08D03B02B3062630030422D /* ClassStructViewController.swift */,
 				F0546DF42B25AFB10028D662 /* PropertyViewController.swift */,
-				F0546DEE2B258EBC0028D662 /* SingletonViewController.swift */,
 				F0DCBB892B3ACF7E003BF2E9 /* OverLoadingRidingVC.swift */,
 				F0DCBB812B395A0B003BF2E9 /* MethodViewController.swift */,
 				F0DCBB852B399ECD003BF2E9 /* UnqualifiedVC.swift */,
@@ -285,6 +328,7 @@
 				F0C1A69B2B678D8B007E8A43 /* ARC */,
 				F0C1A69E2B67D1C4007E8A43 /* MemorySafetyVC.swift */,
 				F0C1A6A02B6911BB007E8A43 /* AccessLevelVC.swift */,
+				F0C1A6A22B695BD0007E8A43 /* DesignPattern */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -362,7 +406,9 @@
 			files = (
 				F068FBE92B272292004A71D5 /* InitalizatierVC.swift in Sources */,
 				F0546DF92B262CA50028D662 /* ProtocolViewController.swift in Sources */,
+				F0C1A6A72B695CF1007E8A43 /* FactoryMethodVC.swift in Sources */,
 				F0546DF72B261E740028D662 /* ClosureViewController.swift in Sources */,
+				F0C1A6AB2B6966A5007E8A43 /* BuilderVC.swift in Sources */,
 				F0B0E4C22B59355E0071400B /* TypeCastingVC.swift in Sources */,
 				F0B0E4BA2B58FA150071400B /* CompositionProtocolVC.swift in Sources */,
 				F0546DF32B25AB170028D662 /* EscapingViewController.swift in Sources */,
@@ -397,6 +443,7 @@
 				F0B0E4AF2B57B1190071400B /* ProtocolExtensinVC.swift in Sources */,
 				F00C634E2B1F40E60032363B /* SetVC.swift in Sources */,
 				F0FF49142B5E331F003BA40D /* AssociatedTypeVC.swift in Sources */,
+				F0C1A6A92B6961DA007E8A43 /* AbstractFactoryVC.swift in Sources */,
 				F0FFDFAA2B19D9E4004F0950 /* ConstantVariableVC.swift in Sources */,
 				F0B0E4B42B58EE5A0071400B /* ProtocolCollectionVC.swift in Sources */,
 				F0C1A69D2B678DA4007E8A43 /* ARCClosureVC.swift in Sources */,
@@ -421,6 +468,7 @@
 				F06A381D2B5A956700C321BB /* GenericTypeVC.swift in Sources */,
 				F06A381B2B5A94C500C321BB /* GenericWithReturnValueVC.swift in Sources */,
 				F0B0E4B62B58F20B0071400B /* ProtocolInheritanceVC.swift in Sources */,
+				F0C1A6AD2B696BDF007E8A43 /* PrototypeVC.swift in Sources */,
 				F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */,
 				F0DB78A12B1739DA008FB987 /* SceneDelegate.swift in Sources */,
 			);
