@@ -37,8 +37,7 @@ class SedanFlyWeight: CarFlyWeight {
         print("drive a sedan \(color)")
     }
 }
-//MARK: 
-Flywieght Design Pattern
+//MARK: Flywieght Design Pattern
 /*
  To checking if data is storage or not, if not then we can store data and use in future.
  */
