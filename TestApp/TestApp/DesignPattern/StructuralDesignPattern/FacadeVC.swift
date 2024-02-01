@@ -13,17 +13,36 @@ class FacadeVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let factoryFacade = FactoryFacade()
+        factoryFacade.produceCar()
     }
+}
+
+class Engine {
+    func produceEngine() {
+        print("prodce engine")
+    }
+}
+class Body {
+    func produceBody() {
+        print("prodce body")
+    }
+}
+class Accessories {
+    func produceAccessories() {
+        print("prodce accessories")
+    }
+}
+//MARK: Facade design pattern -- Single class to extract data for multiple class
+class FactoryFacade {
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    let engine = Engine()
+    let body = Body()
+    let accessories = Accessories()
+    
+    func produceCar() {
+        engine.produceEngine()
+        body.produceBody()
+        accessories.produceAccessories()
     }
-    */
-
 }
