@@ -27,7 +27,7 @@ class AbstractFactoryVC: UIViewController {
     }
 
 }
-// Factory One Sedan------------
+//MARK: Protocol 1 Factory One Sedan------------
 protocol SedanAbstract {
     func drive()
 }
@@ -46,7 +46,7 @@ class FullSizeSedan: SedanAbstract {
         print("drive a full-size sedan")
     }
 }
-// Factory Two SUV------------
+//MARK: Protocol 2 Factory Two SUV------------
 protocol SUVAbstract {
     func drive()
 }
@@ -65,12 +65,13 @@ class FullSizeSUV: SUVAbstract {
         print("drive a full-size SUV")
     }
 }
-// Main Abstract Factory -- Abstract means data hiding from outside class
+//MARK: Protocol Main Abstract Factory -- Abstract means data hiding from outside class
 protocol FactoryAbstract {
     func produceSedan() -> SedanAbstract
     func produceSUV() -> SUVAbstract
 }
 
+//MARK: Protocol Main Abstract Factory Class
 class FactoryA: FactoryAbstract {
     func produceSedan() -> SedanAbstract {
         return CompactSedan()

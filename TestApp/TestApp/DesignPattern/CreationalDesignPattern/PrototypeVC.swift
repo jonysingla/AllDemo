@@ -22,7 +22,7 @@ class PrototypeVC: UIViewController {
         print(copy2.property) 
     }
 }
-
+//MARK: Protocol
 protocol Prototype {
     func clone() -> Self
 }
@@ -35,7 +35,7 @@ class ConcretePrototype: Prototype {
         self.property = property
     }
     
-    // Implementation of NSCopying protocol.
+    // Implementation of NSCopying protocol. Here Prototype Work
     func copy(with zone: NSZone? = nil) -> Any {
         return ConcretePrototype(property: self.property)
     }

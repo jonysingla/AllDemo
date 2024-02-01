@@ -35,6 +35,13 @@
 		F06A38212B5A993E00C321BB /* GenericTypeConstraintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A38202B5A993E00C321BB /* GenericTypeConstraintVC.swift */; };
 		F0727E6B2B2AF4EC006606C7 /* EnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0727E6A2B2AF4EC006606C7 /* EnumViewController.swift */; };
 		F0727E6D2B2B02F8006606C7 /* ImplicitExplicitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0727E6C2B2B02F8006606C7 /* ImplicitExplicitVC.swift */; };
+		F072FABA2B6A68C9003AF4A3 /* AdapterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAB92B6A68C9003AF4A3 /* AdapterVC.swift */; };
+		F072FABC2B6A68D9003AF4A3 /* BridgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FABB2B6A68D9003AF4A3 /* BridgeVC.swift */; };
+		F072FABE2B6A68EC003AF4A3 /* CompositeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FABD2B6A68EC003AF4A3 /* CompositeVC.swift */; };
+		F072FAC02B6A68FC003AF4A3 /* DecoratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FABF2B6A68FC003AF4A3 /* DecoratorVC.swift */; };
+		F072FAC22B6A690B003AF4A3 /* FacadeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAC12B6A690B003AF4A3 /* FacadeVC.swift */; };
+		F072FAC42B6A691C003AF4A3 /* FlyweightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAC32B6A691C003AF4A3 /* FlyweightVC.swift */; };
+		F072FAC62B6A692C003AF4A3 /* ProxyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAC52B6A692C003AF4A3 /* ProxyVC.swift */; };
 		F073C0FA2B4BC44E00542EBE /* ActorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073C0F92B4BC44E00542EBE /* ActorVC.swift */; };
 		F073C0FC2B4D060100542EBE /* MacroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073C0FB2B4D060100542EBE /* MacroVC.swift */; };
 		F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B02B3062630030422D /* ClassStructViewController.swift */; };
@@ -108,6 +115,13 @@
 		F06A38202B5A993E00C321BB /* GenericTypeConstraintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTypeConstraintVC.swift; sourceTree = "<group>"; };
 		F0727E6A2B2AF4EC006606C7 /* EnumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewController.swift; sourceTree = "<group>"; };
 		F0727E6C2B2B02F8006606C7 /* ImplicitExplicitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitExplicitVC.swift; sourceTree = "<group>"; };
+		F072FAB92B6A68C9003AF4A3 /* AdapterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterVC.swift; sourceTree = "<group>"; };
+		F072FABB2B6A68D9003AF4A3 /* BridgeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeVC.swift; sourceTree = "<group>"; };
+		F072FABD2B6A68EC003AF4A3 /* CompositeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeVC.swift; sourceTree = "<group>"; };
+		F072FABF2B6A68FC003AF4A3 /* DecoratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorVC.swift; sourceTree = "<group>"; };
+		F072FAC12B6A690B003AF4A3 /* FacadeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeVC.swift; sourceTree = "<group>"; };
+		F072FAC32B6A691C003AF4A3 /* FlyweightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightVC.swift; sourceTree = "<group>"; };
+		F072FAC52B6A692C003AF4A3 /* ProxyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyVC.swift; sourceTree = "<group>"; };
 		F073C0F92B4BC44E00542EBE /* ActorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorVC.swift; sourceTree = "<group>"; };
 		F073C0FB2B4D060100542EBE /* MacroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroVC.swift; sourceTree = "<group>"; };
 		F08D03B02B3062630030422D /* ClassStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStructViewController.swift; sourceTree = "<group>"; };
@@ -232,8 +246,8 @@
 			isa = PBXGroup;
 			children = (
 				F0C1A6A32B695BDE007E8A43 /* CreationalDesignPattern */,
-				F0C1A6A42B695BF1007E8A43 /* BehaviouralDesignPattern */,
 				F0C1A6A52B695C03007E8A43 /* StructuralDesignPattern */,
+				F0C1A6A42B695BF1007E8A43 /* BehaviouralDesignPattern */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -260,6 +274,13 @@
 		F0C1A6A52B695C03007E8A43 /* StructuralDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F072FAB92B6A68C9003AF4A3 /* AdapterVC.swift */,
+				F072FABB2B6A68D9003AF4A3 /* BridgeVC.swift */,
+				F072FABD2B6A68EC003AF4A3 /* CompositeVC.swift */,
+				F072FABF2B6A68FC003AF4A3 /* DecoratorVC.swift */,
+				F072FAC12B6A690B003AF4A3 /* FacadeVC.swift */,
+				F072FAC32B6A691C003AF4A3 /* FlyweightVC.swift */,
+				F072FAC52B6A692C003AF4A3 /* ProxyVC.swift */,
 			);
 			path = StructuralDesignPattern;
 			sourceTree = "<group>";
@@ -408,13 +429,17 @@
 				F0546DF92B262CA50028D662 /* ProtocolViewController.swift in Sources */,
 				F0C1A6A72B695CF1007E8A43 /* FactoryMethodVC.swift in Sources */,
 				F0546DF72B261E740028D662 /* ClosureViewController.swift in Sources */,
+				F072FAC02B6A68FC003AF4A3 /* DecoratorVC.swift in Sources */,
+				F072FABE2B6A68EC003AF4A3 /* CompositeVC.swift in Sources */,
 				F0C1A6AB2B6966A5007E8A43 /* BuilderVC.swift in Sources */,
 				F0B0E4C22B59355E0071400B /* TypeCastingVC.swift in Sources */,
+				F072FABC2B6A68D9003AF4A3 /* BridgeVC.swift in Sources */,
 				F0B0E4BA2B58FA150071400B /* CompositionProtocolVC.swift in Sources */,
 				F0546DF32B25AB170028D662 /* EscapingViewController.swift in Sources */,
 				F06A381F2B5A967C00C321BB /* ExtensionGenericVC.swift in Sources */,
 				F0DCBB882B3AA1B2003BF2E9 /* SubscriptVC.swift in Sources */,
 				F0546DF12B25A80F0028D662 /* DeinitalizeViewController.swift in Sources */,
+				F072FAC22B6A690B003AF4A3 /* FacadeVC.swift in Sources */,
 				F03295182B467A77005D3C2E /* ErrorHandlingVC.swift in Sources */,
 				F0546DEB2B21DA800028D662 /* ControlFlowVC.swift in Sources */,
 				F06A38212B5A993E00C321BB /* GenericTypeConstraintVC.swift in Sources */,
@@ -451,6 +476,7 @@
 				F0DCBB8A2B3ACF7E003BF2E9 /* OverLoadingRidingVC.swift in Sources */,
 				F0546DF52B25AFB10028D662 /* PropertyViewController.swift in Sources */,
 				F0B0E4AD2B57A5710071400B /* DelegateVC.swift in Sources */,
+				F072FAC62B6A692C003AF4A3 /* ProxyVC.swift in Sources */,
 				F0546DE92B21C30B0028D662 /* DictionaryVC.swift in Sources */,
 				F073C0FC2B4D060100542EBE /* MacroVC.swift in Sources */,
 				F0FFDFAC2B19E405004F0950 /* TupleVC.swift in Sources */,
@@ -462,12 +488,14 @@
 				F0C1A6A12B6911BB007E8A43 /* AccessLevelVC.swift in Sources */,
 				F032951A2B46BB26005D3C2E /* ConcurrentVC.swift in Sources */,
 				F0546DFD2B26D0320028D662 /* GenericViewController.swift in Sources */,
+				F072FAC42B6A691C003AF4A3 /* FlyweightVC.swift in Sources */,
 				F032951C2B47CB3E005D3C2E /* TaskGroupVC.swift in Sources */,
 				F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */,
 				F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */,
 				F06A381D2B5A956700C321BB /* GenericTypeVC.swift in Sources */,
 				F06A381B2B5A94C500C321BB /* GenericWithReturnValueVC.swift in Sources */,
 				F0B0E4B62B58F20B0071400B /* ProtocolInheritanceVC.swift in Sources */,
+				F072FABA2B6A68C9003AF4A3 /* AdapterVC.swift in Sources */,
 				F0C1A6AD2B696BDF007E8A43 /* PrototypeVC.swift in Sources */,
 				F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */,
 				F0DB78A12B1739DA008FB987 /* SceneDelegate.swift in Sources */,

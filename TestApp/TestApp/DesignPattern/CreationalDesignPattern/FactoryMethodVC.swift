@@ -13,7 +13,7 @@ class FactoryMethodVC: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        //MARK: Without enum factory method
+        //MARK: Without enum Factory
         let sedan = Sedan()
         sedan.drive()
         let suv = SUV()
@@ -31,19 +31,23 @@ class FactoryMethodVC: UIViewController {
     }
 
 }
+//MARK: Enum
 enum CarType {
     case sedan, SUV, van
 }
 
+//MARK: Protocol
 protocol CarFactory {
     func drive()
 }
 
+//MARK: Creating Multiple Classes with Protocol
 class Sedan: CarFactory {
     func drive() {
         print("drive a sedan")
     }
 }
+
 class SUV: CarFactory {
     func drive() {
         print("drive a SUV")
@@ -56,6 +60,7 @@ class Van: CarFactory {
     }
 }
 
+//MARK: Factory Class
 class Factory {
     static func produceCar(type: CarType) -> CarFactory {
         switch type {

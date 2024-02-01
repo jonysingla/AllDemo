@@ -23,8 +23,7 @@ class BuilderVC: UIViewController {
         
     }
 }
-
-
+//MARK: Protocol 
 protocol FactoryBuilder {
     func produceWheel()
     func produceEngine()
@@ -59,7 +58,7 @@ class SuvFactory : FactoryBuilder {
     }
 }
 
-//Work as Builder 
+//MARK: Builder Class to call other clas function
 class Director {
     var factory: FactoryBuilder
     
