@@ -13,17 +13,37 @@ class CompositeVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        var whiteboard = Whiteboard(CircleComposite(), SquareComposite())
+        whiteboard.draw(fillColor: "Red")
     }
-    
+}
 
-    /*
-    // MARK: - Navigation
+protocol ShapeComposite {
+    func draw(fillColor: String)
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+class SquareComposite: ShapeComposite {
+    func draw(fillColor: String) {
+        print("Drawing a Square with color \(fillColor)")
     }
-    */
+}
 
+class CircleComposite: ShapeComposite {
+    func draw(fillColor: String) {
+        print("Drawing a circle with color \(fillColor)")
+    }
+}
+//MARK: Here we are using Composite Design Pattern
+class Whiteboard: ShapeComposite {
+    private lazy var shapes = [ShapeComposite]()
+
+    init(_ shapes: ShapeComposite...) {
+        self.shapes = shapes
+    }
+
+    func draw(fillColor: String) {
+        for shape in self.shapes {
+            shape.draw(fillColor: fillColor)
+        }
+    }
 }
