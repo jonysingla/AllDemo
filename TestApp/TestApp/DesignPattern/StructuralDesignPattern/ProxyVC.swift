@@ -13,6 +13,37 @@ class ProxyVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //Without Proxy
+        let objSedan = SedanProxy()
+        objSedan.drive()
+        
+        //With Proxy
+        let sedan = SedanProxy()
+        let autonomousCar = AutonomousCarProxy(car: sedan)
+        autonomousCar.drive()
     }
 
+}
+
+protocol CarProxy {
+    func drive()
+}
+
+class SedanProxy: CarProxy {
+    func drive() {
+        print("drive a sedan")
+    }
+}
+//MARK: Proxy
+class AutonomousCarProxy: CarProxy {
+    var car: CarProxy
+    
+    init(car: CarProxy) {
+        self.car = car
+    }
+    
+    func drive() {
+        car.drive()
+        print("by self-driving system")
+    }
 }
