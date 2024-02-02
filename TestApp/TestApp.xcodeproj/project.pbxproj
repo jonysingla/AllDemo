@@ -42,6 +42,16 @@
 		F072FAC22B6A690B003AF4A3 /* FacadeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAC12B6A690B003AF4A3 /* FacadeVC.swift */; };
 		F072FAC42B6A691C003AF4A3 /* FlyweightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAC32B6A691C003AF4A3 /* FlyweightVC.swift */; };
 		F072FAC62B6A692C003AF4A3 /* ProxyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAC52B6A692C003AF4A3 /* ProxyVC.swift */; };
+		F072FAC82B6CBAEE003AF4A3 /* ChainOfResponsibilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAC72B6CBAEE003AF4A3 /* ChainOfResponsibilityVC.swift */; };
+		F072FACA2B6CBB13003AF4A3 /* CommandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAC92B6CBB13003AF4A3 /* CommandVC.swift */; };
+		F072FACC2B6CBB27003AF4A3 /* IteratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FACB2B6CBB27003AF4A3 /* IteratorVC.swift */; };
+		F072FACE2B6CBB39003AF4A3 /* MediatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FACD2B6CBB39003AF4A3 /* MediatorVC.swift */; };
+		F072FAD02B6CBB49003AF4A3 /* MomentoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FACF2B6CBB49003AF4A3 /* MomentoVC.swift */; };
+		F072FAD22B6CBB59003AF4A3 /* ObserverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAD12B6CBB59003AF4A3 /* ObserverVC.swift */; };
+		F072FAD42B6CBB68003AF4A3 /* StateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAD32B6CBB68003AF4A3 /* StateVC.swift */; };
+		F072FAD62B6CBB78003AF4A3 /* StrategyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAD52B6CBB78003AF4A3 /* StrategyVC.swift */; };
+		F072FAD82B6CBB88003AF4A3 /* TemplateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAD72B6CBB88003AF4A3 /* TemplateVC.swift */; };
+		F072FADA2B6CBB98003AF4A3 /* VisitorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072FAD92B6CBB98003AF4A3 /* VisitorVC.swift */; };
 		F073C0FA2B4BC44E00542EBE /* ActorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073C0F92B4BC44E00542EBE /* ActorVC.swift */; };
 		F073C0FC2B4D060100542EBE /* MacroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073C0FB2B4D060100542EBE /* MacroVC.swift */; };
 		F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B02B3062630030422D /* ClassStructViewController.swift */; };
@@ -122,6 +132,16 @@
 		F072FAC12B6A690B003AF4A3 /* FacadeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeVC.swift; sourceTree = "<group>"; };
 		F072FAC32B6A691C003AF4A3 /* FlyweightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightVC.swift; sourceTree = "<group>"; };
 		F072FAC52B6A692C003AF4A3 /* ProxyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyVC.swift; sourceTree = "<group>"; };
+		F072FAC72B6CBAEE003AF4A3 /* ChainOfResponsibilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibilityVC.swift; sourceTree = "<group>"; };
+		F072FAC92B6CBB13003AF4A3 /* CommandVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandVC.swift; sourceTree = "<group>"; };
+		F072FACB2B6CBB27003AF4A3 /* IteratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorVC.swift; sourceTree = "<group>"; };
+		F072FACD2B6CBB39003AF4A3 /* MediatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorVC.swift; sourceTree = "<group>"; };
+		F072FACF2B6CBB49003AF4A3 /* MomentoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentoVC.swift; sourceTree = "<group>"; };
+		F072FAD12B6CBB59003AF4A3 /* ObserverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverVC.swift; sourceTree = "<group>"; };
+		F072FAD32B6CBB68003AF4A3 /* StateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVC.swift; sourceTree = "<group>"; };
+		F072FAD52B6CBB78003AF4A3 /* StrategyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyVC.swift; sourceTree = "<group>"; };
+		F072FAD72B6CBB88003AF4A3 /* TemplateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateVC.swift; sourceTree = "<group>"; };
+		F072FAD92B6CBB98003AF4A3 /* VisitorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorVC.swift; sourceTree = "<group>"; };
 		F073C0F92B4BC44E00542EBE /* ActorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorVC.swift; sourceTree = "<group>"; };
 		F073C0FB2B4D060100542EBE /* MacroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroVC.swift; sourceTree = "<group>"; };
 		F08D03B02B3062630030422D /* ClassStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStructViewController.swift; sourceTree = "<group>"; };
@@ -267,6 +287,16 @@
 		F0C1A6A42B695BF1007E8A43 /* BehaviouralDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F072FAC72B6CBAEE003AF4A3 /* ChainOfResponsibilityVC.swift */,
+				F072FAC92B6CBB13003AF4A3 /* CommandVC.swift */,
+				F072FACB2B6CBB27003AF4A3 /* IteratorVC.swift */,
+				F072FACD2B6CBB39003AF4A3 /* MediatorVC.swift */,
+				F072FACF2B6CBB49003AF4A3 /* MomentoVC.swift */,
+				F072FAD12B6CBB59003AF4A3 /* ObserverVC.swift */,
+				F072FAD32B6CBB68003AF4A3 /* StateVC.swift */,
+				F072FAD52B6CBB78003AF4A3 /* StrategyVC.swift */,
+				F072FAD72B6CBB88003AF4A3 /* TemplateVC.swift */,
+				F072FAD92B6CBB98003AF4A3 /* VisitorVC.swift */,
 			);
 			path = BehaviouralDesignPattern;
 			sourceTree = "<group>";
@@ -425,6 +455,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F072FAD82B6CBB88003AF4A3 /* TemplateVC.swift in Sources */,
+				F072FAD42B6CBB68003AF4A3 /* StateVC.swift in Sources */,
 				F068FBE92B272292004A71D5 /* InitalizatierVC.swift in Sources */,
 				F0546DF92B262CA50028D662 /* ProtocolViewController.swift in Sources */,
 				F0C1A6A72B695CF1007E8A43 /* FactoryMethodVC.swift in Sources */,
@@ -440,18 +472,21 @@
 				F0DCBB882B3AA1B2003BF2E9 /* SubscriptVC.swift in Sources */,
 				F0546DF12B25A80F0028D662 /* DeinitalizeViewController.swift in Sources */,
 				F072FAC22B6A690B003AF4A3 /* FacadeVC.swift in Sources */,
+				F072FAD02B6CBB49003AF4A3 /* MomentoVC.swift in Sources */,
 				F03295182B467A77005D3C2E /* ErrorHandlingVC.swift in Sources */,
 				F0546DEB2B21DA800028D662 /* ControlFlowVC.swift in Sources */,
 				F06A38212B5A993E00C321BB /* GenericTypeConstraintVC.swift in Sources */,
 				F0B0E4BE2B590B9F0071400B /* OptionalProtocolVC.swift in Sources */,
 				F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */,
 				F0BFD26E2B4549DF00BF7DC6 /* OptionalChainingVC.swift in Sources */,
+				F072FAC82B6CBAEE003AF4A3 /* ChainOfResponsibilityVC.swift in Sources */,
 				F0DCBB862B399ECD003BF2E9 /* UnqualifiedVC.swift in Sources */,
 				F0727E6B2B2AF4EC006606C7 /* EnumViewController.swift in Sources */,
 				F08D03B32B30AF320030422D /* CallbyValueReferenceViewController.swift in Sources */,
 				F0B0E4BC2B59049C0071400B /* ConformanceProtocolVC.swift in Sources */,
 				F0546DEF2B258EBC0028D662 /* SingletonViewController.swift in Sources */,
 				F0727E6D2B2B02F8006606C7 /* ImplicitExplicitVC.swift in Sources */,
+				F072FADA2B6CBB98003AF4A3 /* VisitorVC.swift in Sources */,
 				F0546DFB2B26C6790028D662 /* HighOrderFunctionVC.swift in Sources */,
 				F0B0E4A92B5793720071400B /* ConvenienceInitializerVC.swift in Sources */,
 				F01515182B612717005838B2 /* ARCViewController.swift in Sources */,
@@ -466,6 +501,7 @@
 				F0283B952B1DDCA4003AA403 /* StringVC.swift in Sources */,
 				F0B0E4B22B57F6D70071400B /* SynthesizedProtocol.swift in Sources */,
 				F0B0E4AF2B57B1190071400B /* ProtocolExtensinVC.swift in Sources */,
+				F072FACA2B6CBB13003AF4A3 /* CommandVC.swift in Sources */,
 				F00C634E2B1F40E60032363B /* SetVC.swift in Sources */,
 				F0FF49142B5E331F003BA40D /* AssociatedTypeVC.swift in Sources */,
 				F0C1A6A92B6961DA007E8A43 /* AbstractFactoryVC.swift in Sources */,
@@ -478,10 +514,13 @@
 				F0B0E4AD2B57A5710071400B /* DelegateVC.swift in Sources */,
 				F072FAC62B6A692C003AF4A3 /* ProxyVC.swift in Sources */,
 				F0546DE92B21C30B0028D662 /* DictionaryVC.swift in Sources */,
+				F072FACE2B6CBB39003AF4A3 /* MediatorVC.swift in Sources */,
 				F073C0FC2B4D060100542EBE /* MacroVC.swift in Sources */,
 				F0FFDFAC2B19E405004F0950 /* TupleVC.swift in Sources */,
 				F0DB78A32B1739DA008FB987 /* ViewController.swift in Sources */,
+				F072FAD22B6CBB59003AF4A3 /* ObserverVC.swift in Sources */,
 				F0546DED2B232A2B0028D662 /* FunctionVC.swift in Sources */,
+				F072FAD62B6CBB78003AF4A3 /* StrategyVC.swift in Sources */,
 				F0283B912B1DD3D9003AA403 /* IdentityOperatorVC.swift in Sources */,
 				F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */,
 				F0B0E4B82B58F8380071400B /* ClassOnlyProtocolVC.swift in Sources */,
@@ -489,6 +528,7 @@
 				F032951A2B46BB26005D3C2E /* ConcurrentVC.swift in Sources */,
 				F0546DFD2B26D0320028D662 /* GenericViewController.swift in Sources */,
 				F072FAC42B6A691C003AF4A3 /* FlyweightVC.swift in Sources */,
+				F072FACC2B6CBB27003AF4A3 /* IteratorVC.swift in Sources */,
 				F032951C2B47CB3E005D3C2E /* TaskGroupVC.swift in Sources */,
 				F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */,
 				F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */,
