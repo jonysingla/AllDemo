@@ -12,18 +12,46 @@ class IteratorVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //MARK: 1 Iteration
+        let numberArray = [1,2,3,4]
+        for number in numberArray {
+            print("number",number)
+        }
+        
+        //MARK: 2 Iteration with IteratorProtocol and Sequence
+        let greatItems = Items(items: [Item(name: "The Mist")] )
+        for item in greatItems {
+            print("I've read: \(item)")
+        }
     }
-    
+}
 
-    /*
-    // MARK: - Navigation
+struct Item {
+    let name: String
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+struct Items {
+    let items: [Item]
+}
+
+//Using Iterator Protocol
+struct ItemsIterator: IteratorProtocol {
+
+    private var current = 0
+    private let items: [Item]
+
+    init(items: [Item]) {
+        self.items = items
     }
-    */
 
+    mutating func next() -> Item? {
+        defer { current += 1 }
+        return items.count > current ? items[current] : nil
+    }
+}
+
+extension Items: Sequence {
+    func makeIterator() -> ItemsIterator {
+        return ItemsIterator(items: items)
+    }
 }
