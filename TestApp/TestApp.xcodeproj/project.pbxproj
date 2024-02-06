@@ -74,6 +74,7 @@
 		F0B0E4C02B5915F50071400B /* ProtocolExtensionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4BF2B5915F50071400B /* ProtocolExtensionVC.swift */; };
 		F0B0E4C22B59355E0071400B /* TypeCastingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4C12B59355E0071400B /* TypeCastingVC.swift */; };
 		F0B616A32B725728005BD182 /* CodeableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B616A22B725728005BD182 /* CodeableVC.swift */; };
+		F0B616A62B7294C1005BD182 /* DepenencyInjectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B616A52B7294C1005BD182 /* DepenencyInjectionVC.swift */; };
 		F0BFD26E2B4549DF00BF7DC6 /* OptionalChainingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */; };
 		F0C1A69D2B678DA4007E8A43 /* ARCClosureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A69C2B678DA4007E8A43 /* ARCClosureVC.swift */; };
 		F0C1A69F2B67D1C4007E8A43 /* MemorySafetyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1A69E2B67D1C4007E8A43 /* MemorySafetyVC.swift */; };
@@ -167,6 +168,7 @@
 		F0B0E4BF2B5915F50071400B /* ProtocolExtensionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensionVC.swift; sourceTree = "<group>"; };
 		F0B0E4C12B59355E0071400B /* TypeCastingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCastingVC.swift; sourceTree = "<group>"; };
 		F0B616A22B725728005BD182 /* CodeableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableVC.swift; sourceTree = "<group>"; };
+		F0B616A52B7294C1005BD182 /* DepenencyInjectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepenencyInjectionVC.swift; sourceTree = "<group>"; };
 		F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingVC.swift; sourceTree = "<group>"; };
 		F0C1A69C2B678DA4007E8A43 /* ARCClosureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCClosureVC.swift; sourceTree = "<group>"; };
 		F0C1A69E2B67D1C4007E8A43 /* MemorySafetyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorySafetyVC.swift; sourceTree = "<group>"; };
@@ -397,6 +399,7 @@
 				F0C1A6A02B6911BB007E8A43 /* AccessLevelVC.swift */,
 				F0C1A6A22B695BD0007E8A43 /* DesignPattern */,
 				F00E3E562B7209BE009B6E10 /* HigherOrderFunction */,
+				F0B616A52B7294C1005BD182 /* DepenencyInjectionVC.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -541,6 +544,7 @@
 				F0546DED2B232A2B0028D662 /* FunctionVC.swift in Sources */,
 				F072FAD62B6CBB78003AF4A3 /* StrategyVC.swift in Sources */,
 				F0283B912B1DD3D9003AA403 /* IdentityOperatorVC.swift in Sources */,
+				F0B616A62B7294C1005BD182 /* DepenencyInjectionVC.swift in Sources */,
 				F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */,
 				F0B0E4B82B58F8380071400B /* ClassOnlyProtocolVC.swift in Sources */,
 				F0C1A6A12B6911BB007E8A43 /* AccessLevelVC.swift in Sources */,
