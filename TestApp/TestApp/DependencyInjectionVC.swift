@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DepenencyInjectionVC: UIViewController {
+class DependencyInjectionVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
