@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F00C634E2B1F40E60032363B /* SetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00C634D2B1F40E60032363B /* SetVC.swift */; };
 		F00E3E522B710CF6009B6E10 /* MementoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E3E512B710CF6009B6E10 /* MementoVC.swift */; };
+		F00E3E552B71F795009B6E10 /* HigherOrderFunctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E3E542B71F795009B6E10 /* HigherOrderFunctionVC.swift */; };
 		F01515182B612717005838B2 /* ARCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01515172B612717005838B2 /* ARCViewController.swift */; };
 		F0283B912B1DD3D9003AA403 /* IdentityOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */; };
 		F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */; };
@@ -99,6 +100,7 @@
 /* Begin PBXFileReference section */
 		F00C634D2B1F40E60032363B /* SetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetVC.swift; sourceTree = "<group>"; };
 		F00E3E512B710CF6009B6E10 /* MementoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoVC.swift; sourceTree = "<group>"; };
+		F00E3E542B71F795009B6E10 /* HigherOrderFunctionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunctionVC.swift; sourceTree = "<group>"; };
 		F01515172B612717005838B2 /* ARCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCViewController.swift; sourceTree = "<group>"; };
 		F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityOperatorVC.swift; sourceTree = "<group>"; };
 		F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
@@ -200,6 +202,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F00E3E562B7209BE009B6E10 /* HigherOrderFunction */ = {
+			isa = PBXGroup;
+			children = (
+				F00E3E542B71F795009B6E10 /* HigherOrderFunctionVC.swift */,
+			);
+			path = HigherOrderFunction;
+			sourceTree = "<group>";
+		};
 		F01515152B60D239005838B2 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,6 +390,7 @@
 				F0C1A69E2B67D1C4007E8A43 /* MemorySafetyVC.swift */,
 				F0C1A6A02B6911BB007E8A43 /* AccessLevelVC.swift */,
 				F0C1A6A22B695BD0007E8A43 /* DesignPattern */,
+				F00E3E562B7209BE009B6E10 /* HigherOrderFunction */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -535,6 +546,7 @@
 				F06A381D2B5A956700C321BB /* GenericTypeVC.swift in Sources */,
 				F06A381B2B5A94C500C321BB /* GenericWithReturnValueVC.swift in Sources */,
 				F0B0E4B62B58F20B0071400B /* ProtocolInheritanceVC.swift in Sources */,
+				F00E3E552B71F795009B6E10 /* HigherOrderFunctionVC.swift in Sources */,
 				F072FABA2B6A68C9003AF4A3 /* AdapterVC.swift in Sources */,
 				F0C1A6AD2B696BDF007E8A43 /* PrototypeVC.swift in Sources */,
 				F0DB789F2B1739DA008FB987 /* AppDelegate.swift in Sources */,
