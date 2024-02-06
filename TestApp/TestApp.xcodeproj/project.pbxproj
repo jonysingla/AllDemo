@@ -10,6 +10,7 @@
 		F00C634E2B1F40E60032363B /* SetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00C634D2B1F40E60032363B /* SetVC.swift */; };
 		F00E3E522B710CF6009B6E10 /* MementoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E3E512B710CF6009B6E10 /* MementoVC.swift */; };
 		F00E3E552B71F795009B6E10 /* HigherOrderFunctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E3E542B71F795009B6E10 /* HigherOrderFunctionVC.swift */; };
+		F00E3E582B720A42009B6E10 /* SortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E3E572B720A42009B6E10 /* SortVC.swift */; };
 		F01515182B612717005838B2 /* ARCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01515172B612717005838B2 /* ARCViewController.swift */; };
 		F0283B912B1DD3D9003AA403 /* IdentityOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */; };
 		F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */; };
@@ -101,6 +102,7 @@
 		F00C634D2B1F40E60032363B /* SetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetVC.swift; sourceTree = "<group>"; };
 		F00E3E512B710CF6009B6E10 /* MementoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoVC.swift; sourceTree = "<group>"; };
 		F00E3E542B71F795009B6E10 /* HigherOrderFunctionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunctionVC.swift; sourceTree = "<group>"; };
+		F00E3E572B720A42009B6E10 /* SortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortVC.swift; sourceTree = "<group>"; };
 		F01515172B612717005838B2 /* ARCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCViewController.swift; sourceTree = "<group>"; };
 		F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityOperatorVC.swift; sourceTree = "<group>"; };
 		F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				F00E3E542B71F795009B6E10 /* HigherOrderFunctionVC.swift */,
+				F00E3E572B720A42009B6E10 /* SortVC.swift */,
 			);
 			path = HigherOrderFunction;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				F072FABE2B6A68EC003AF4A3 /* CompositeVC.swift in Sources */,
 				F0C1A6AB2B6966A5007E8A43 /* BuilderVC.swift in Sources */,
 				F0B0E4C22B59355E0071400B /* TypeCastingVC.swift in Sources */,
+				F00E3E582B720A42009B6E10 /* SortVC.swift in Sources */,
 				F072FABC2B6A68D9003AF4A3 /* BridgeVC.swift in Sources */,
 				F0B0E4BA2B58FA150071400B /* CompositionProtocolVC.swift in Sources */,
 				F0546DF32B25AB170028D662 /* EscapingViewController.swift in Sources */,
