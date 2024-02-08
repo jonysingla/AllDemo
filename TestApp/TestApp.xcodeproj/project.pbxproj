@@ -58,6 +58,7 @@
 		F073C0FC2B4D060100542EBE /* MacroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F073C0FB2B4D060100542EBE /* MacroVC.swift */; };
 		F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B02B3062630030422D /* ClassStructViewController.swift */; };
 		F08D03B32B30AF320030422D /* CallbyValueReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */; };
+		F099F8502B749BAC00F6CD1D /* DelegateVsNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F84F2B749BAC00F6CD1D /* DelegateVsNotificationVC.swift */; };
 		F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A42B5640160071400B /* NestedTypesVC.swift */; };
 		F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A62B5649450071400B /* ExtensionViewController.swift */; };
 		F0B0E4A92B5793720071400B /* ConvenienceInitializerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */; };
@@ -152,6 +153,7 @@
 		F073C0FB2B4D060100542EBE /* MacroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroVC.swift; sourceTree = "<group>"; };
 		F08D03B02B3062630030422D /* ClassStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStructViewController.swift; sourceTree = "<group>"; };
 		F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbyValueReferenceViewController.swift; sourceTree = "<group>"; };
+		F099F84F2B749BAC00F6CD1D /* DelegateVsNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateVsNotificationVC.swift; sourceTree = "<group>"; };
 		F0B0E4A42B5640160071400B /* NestedTypesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTypesVC.swift; sourceTree = "<group>"; };
 		F0B0E4A62B5649450071400B /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
 		F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvenienceInitializerVC.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				F0B0E4BD2B590B9F0071400B /* OptionalProtocolVC.swift */,
 				F0B0E4BF2B5915F50071400B /* ProtocolExtensionVC.swift */,
 				F0B616A22B725728005BD182 /* CodeableVC.swift */,
+				F099F84F2B749BAC00F6CD1D /* DelegateVsNotificationVC.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				F0DCBB822B395A0B003BF2E9 /* MethodViewController.swift in Sources */,
 				F0C1A69F2B67D1C4007E8A43 /* MemorySafetyVC.swift in Sources */,
 				F0B0E4AB2B579B680071400B /* OpaqueTypeVC.swift in Sources */,
+				F099F8502B749BAC00F6CD1D /* DelegateVsNotificationVC.swift in Sources */,
 				F073C0FA2B4BC44E00542EBE /* ActorVC.swift in Sources */,
 				F0B616A32B725728005BD182 /* CodeableVC.swift in Sources */,
 				F0283B972B1F32E4003AA403 /* ArrayVC.swift in Sources */,
