@@ -60,6 +60,11 @@
 		F08D03B32B30AF320030422D /* CallbyValueReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */; };
 		F099F8502B749BAC00F6CD1D /* DelegateVsNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F84F2B749BAC00F6CD1D /* DelegateVsNotificationVC.swift */; };
 		F099F8532B74BDE700F6CD1D /* DataRaceConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F8522B74BDE700F6CD1D /* DataRaceConditionVC.swift */; };
+		F099F8562B75323600F6CD1D /* SIngleResponsibilitesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F8552B75323600F6CD1D /* SIngleResponsibilitesVC.swift */; };
+		F099F8582B75324600F6CD1D /* OpenCloseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F8572B75324600F6CD1D /* OpenCloseVC.swift */; };
+		F099F85A2B75327800F6CD1D /* LiskovSubstitutionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F8592B75327800F6CD1D /* LiskovSubstitutionVC.swift */; };
+		F099F85C2B75329100F6CD1D /* InterfaceSegreationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F85B2B75329100F6CD1D /* InterfaceSegreationVC.swift */; };
+		F099F85E2B7532A600F6CD1D /* DependencyInversionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F85D2B7532A600F6CD1D /* DependencyInversionVC.swift */; };
 		F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A42B5640160071400B /* NestedTypesVC.swift */; };
 		F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A62B5649450071400B /* ExtensionViewController.swift */; };
 		F0B0E4A92B5793720071400B /* ConvenienceInitializerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */; };
@@ -156,6 +161,11 @@
 		F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbyValueReferenceViewController.swift; sourceTree = "<group>"; };
 		F099F84F2B749BAC00F6CD1D /* DelegateVsNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateVsNotificationVC.swift; sourceTree = "<group>"; };
 		F099F8522B74BDE700F6CD1D /* DataRaceConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRaceConditionVC.swift; sourceTree = "<group>"; };
+		F099F8552B75323600F6CD1D /* SIngleResponsibilitesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIngleResponsibilitesVC.swift; sourceTree = "<group>"; };
+		F099F8572B75324600F6CD1D /* OpenCloseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCloseVC.swift; sourceTree = "<group>"; };
+		F099F8592B75327800F6CD1D /* LiskovSubstitutionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionVC.swift; sourceTree = "<group>"; };
+		F099F85B2B75329100F6CD1D /* InterfaceSegreationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegreationVC.swift; sourceTree = "<group>"; };
+		F099F85D2B7532A600F6CD1D /* DependencyInversionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversionVC.swift; sourceTree = "<group>"; };
 		F0B0E4A42B5640160071400B /* NestedTypesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTypesVC.swift; sourceTree = "<group>"; };
 		F0B0E4A62B5649450071400B /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
 		F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvenienceInitializerVC.swift; sourceTree = "<group>"; };
@@ -261,6 +271,19 @@
 				F099F8522B74BDE700F6CD1D /* DataRaceConditionVC.swift */,
 			);
 			path = ThreadSanitizer;
+			sourceTree = "<group>";
+		};
+		F099F8542B75321000F6CD1D /* Solid Principle */ = {
+			isa = PBXGroup;
+			children = (
+				F099F8552B75323600F6CD1D /* SIngleResponsibilitesVC.swift */,
+				F099F8572B75324600F6CD1D /* OpenCloseVC.swift */,
+				F099F8592B75327800F6CD1D /* LiskovSubstitutionVC.swift */,
+				F099F85B2B75329100F6CD1D /* InterfaceSegreationVC.swift */,
+				F099F85D2B7532A600F6CD1D /* DependencyInversionVC.swift */,
+				F0B616A52B7294C1005BD182 /* DependencyInjectionVC.swift */,
+			);
+			path = "Solid Principle";
 			sourceTree = "<group>";
 		};
 		F0B0E4B02B57B1260071400B /* Protocol */ = {
@@ -395,6 +418,7 @@
 				F0546DF02B25A80F0028D662 /* DeinitalizeViewController.swift */,
 				F0BFD26D2B4549DF00BF7DC6 /* OptionalChainingVC.swift */,
 				F03295172B467A77005D3C2E /* ErrorHandlingVC.swift */,
+				F099F8512B74BDCD00F6CD1D /* ThreadSanitizer */,
 				F01515152B60D239005838B2 /* Concurrency */,
 				F0B0E4C12B59355E0071400B /* TypeCastingVC.swift */,
 				F073C0FB2B4D060100542EBE /* MacroVC.swift */,
@@ -412,8 +436,7 @@
 				F0C1A6A02B6911BB007E8A43 /* AccessLevelVC.swift */,
 				F0C1A6A22B695BD0007E8A43 /* DesignPattern */,
 				F00E3E562B7209BE009B6E10 /* HigherOrderFunction */,
-				F0B616A52B7294C1005BD182 /* DependencyInjectionVC.swift */,
-				F099F8512B74BDCD00F6CD1D /* ThreadSanitizer */,
+				F099F8542B75321000F6CD1D /* Solid Principle */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -517,6 +540,7 @@
 				F072FAC82B6CBAEE003AF4A3 /* ChainOfResponsibilityVC.swift in Sources */,
 				F00E3E522B710CF6009B6E10 /* MementoVC.swift in Sources */,
 				F0DCBB862B399ECD003BF2E9 /* UnqualifiedVC.swift in Sources */,
+				F099F8562B75323600F6CD1D /* SIngleResponsibilitesVC.swift in Sources */,
 				F0727E6B2B2AF4EC006606C7 /* EnumViewController.swift in Sources */,
 				F08D03B32B30AF320030422D /* CallbyValueReferenceViewController.swift in Sources */,
 				F0B0E4BC2B59049C0071400B /* ConformanceProtocolVC.swift in Sources */,
@@ -524,11 +548,13 @@
 				F0727E6D2B2B02F8006606C7 /* ImplicitExplicitVC.swift in Sources */,
 				F072FADA2B6CBB98003AF4A3 /* VisitorVC.swift in Sources */,
 				F0546DFB2B26C6790028D662 /* HighOrderFunctionVC.swift in Sources */,
+				F099F85A2B75327800F6CD1D /* LiskovSubstitutionVC.swift in Sources */,
 				F0B0E4A92B5793720071400B /* ConvenienceInitializerVC.swift in Sources */,
 				F01515182B612717005838B2 /* ARCViewController.swift in Sources */,
 				F0B0E4C02B5915F50071400B /* ProtocolExtensionVC.swift in Sources */,
 				F068FBEB2B27711C004A71D5 /* NilViewController.swift in Sources */,
 				F0DCBB822B395A0B003BF2E9 /* MethodViewController.swift in Sources */,
+				F099F8582B75324600F6CD1D /* OpenCloseVC.swift in Sources */,
 				F0C1A69F2B67D1C4007E8A43 /* MemorySafetyVC.swift in Sources */,
 				F0B0E4AB2B579B680071400B /* OpaqueTypeVC.swift in Sources */,
 				F099F8502B749BAC00F6CD1D /* DelegateVsNotificationVC.swift in Sources */,
@@ -557,9 +583,11 @@
 				F0FFDFAC2B19E405004F0950 /* TupleVC.swift in Sources */,
 				F0DB78A32B1739DA008FB987 /* ViewController.swift in Sources */,
 				F072FAD22B6CBB59003AF4A3 /* ObserverVC.swift in Sources */,
+				F099F85C2B75329100F6CD1D /* InterfaceSegreationVC.swift in Sources */,
 				F0546DED2B232A2B0028D662 /* FunctionVC.swift in Sources */,
 				F072FAD62B6CBB78003AF4A3 /* StrategyVC.swift in Sources */,
 				F0283B912B1DD3D9003AA403 /* IdentityOperatorVC.swift in Sources */,
+				F099F85E2B7532A600F6CD1D /* DependencyInversionVC.swift in Sources */,
 				F0B616A62B7294C1005BD182 /* DependencyInjectionVC.swift in Sources */,
 				F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */,
 				F0B0E4B82B58F8380071400B /* ClassOnlyProtocolVC.swift in Sources */,

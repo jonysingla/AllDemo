@@ -18,14 +18,13 @@ class DependencyInjectionVC: UIViewController {
         var libraryViewModel = LibraryViewModel()
         libraryViewModel.library                        // Here library object is dependent to libraryViewModel, so avoid this we use dependency injection
         
-        
         //Example 1.1 -- With Dependency Injection
         let libraryViewModelOne = LibraryViewModelOne()
         let library = Library()
         libraryViewModelOne.library = library           // Here both class has different object not to dependent to each other
     }
-
 }
+
 //MARK: 1. Property Base injection
 //Without Dependency
 class LibraryViewModel {
@@ -58,4 +57,34 @@ class LibraryViewModelThree {
 // also use protocol to create method base injection
 protocol LibraryManager {
     func recordBook(in libarary: Library)
+}
+
+//------------------------------------------------------------------------------
+//MARK: Another Example for Depenedency Injection
+protocol Order {
+    func Order()
+}
+
+protocol PaymentProcess {
+    func processPayment ()
+}
+
+//MARK:  Constructor (Initializer-Based) Injection
+class OrderProcessor {
+    let paymentProcess: PaymentProcess
+        init(paymentProcess: PaymentProcess) {
+            self.paymentProcess = paymentProcess
+    }
+}
+
+//MARK: Method Injection
+class OrderProcessorMethodInjection {
+    func process(order: Order, using paymentProcessor: PaymentProcess) {
+        // Process the order using the provided payment processor
+     }
+}
+
+//MARK: Property Injection:
+class OrderProcessorPropertyInjection {
+    var paymentProcessor: PaymentProcess!
 }
