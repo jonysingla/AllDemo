@@ -59,6 +59,7 @@
 		F08D03B12B3062630030422D /* ClassStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B02B3062630030422D /* ClassStructViewController.swift */; };
 		F08D03B32B30AF320030422D /* CallbyValueReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */; };
 		F099F8502B749BAC00F6CD1D /* DelegateVsNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F84F2B749BAC00F6CD1D /* DelegateVsNotificationVC.swift */; };
+		F099F8532B74BDE700F6CD1D /* DataRaceConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F099F8522B74BDE700F6CD1D /* DataRaceConditionVC.swift */; };
 		F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A42B5640160071400B /* NestedTypesVC.swift */; };
 		F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A62B5649450071400B /* ExtensionViewController.swift */; };
 		F0B0E4A92B5793720071400B /* ConvenienceInitializerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */; };
@@ -154,6 +155,7 @@
 		F08D03B02B3062630030422D /* ClassStructViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStructViewController.swift; sourceTree = "<group>"; };
 		F08D03B22B30AF320030422D /* CallbyValueReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbyValueReferenceViewController.swift; sourceTree = "<group>"; };
 		F099F84F2B749BAC00F6CD1D /* DelegateVsNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateVsNotificationVC.swift; sourceTree = "<group>"; };
+		F099F8522B74BDE700F6CD1D /* DataRaceConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRaceConditionVC.swift; sourceTree = "<group>"; };
 		F0B0E4A42B5640160071400B /* NestedTypesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTypesVC.swift; sourceTree = "<group>"; };
 		F0B0E4A62B5649450071400B /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
 		F0B0E4A82B5793720071400B /* ConvenienceInitializerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvenienceInitializerVC.swift; sourceTree = "<group>"; };
@@ -251,6 +253,14 @@
 				F0FF49152B5E5E25003BA40D /* GenericWhereClauseVC.swift */,
 			);
 			path = Generic;
+			sourceTree = "<group>";
+		};
+		F099F8512B74BDCD00F6CD1D /* ThreadSanitizer */ = {
+			isa = PBXGroup;
+			children = (
+				F099F8522B74BDE700F6CD1D /* DataRaceConditionVC.swift */,
+			);
+			path = ThreadSanitizer;
 			sourceTree = "<group>";
 		};
 		F0B0E4B02B57B1260071400B /* Protocol */ = {
@@ -403,6 +413,7 @@
 				F0C1A6A22B695BD0007E8A43 /* DesignPattern */,
 				F00E3E562B7209BE009B6E10 /* HigherOrderFunction */,
 				F0B616A52B7294C1005BD182 /* DependencyInjectionVC.swift */,
+				F099F8512B74BDCD00F6CD1D /* ThreadSanitizer */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -499,6 +510,7 @@
 				F03295182B467A77005D3C2E /* ErrorHandlingVC.swift in Sources */,
 				F0546DEB2B21DA800028D662 /* ControlFlowVC.swift in Sources */,
 				F06A38212B5A993E00C321BB /* GenericTypeConstraintVC.swift in Sources */,
+				F099F8532B74BDE700F6CD1D /* DataRaceConditionVC.swift in Sources */,
 				F0B0E4BE2B590B9F0071400B /* OptionalProtocolVC.swift in Sources */,
 				F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */,
 				F0BFD26E2B4549DF00BF7DC6 /* OptionalChainingVC.swift in Sources */,
