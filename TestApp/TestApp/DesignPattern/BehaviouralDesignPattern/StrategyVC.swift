@@ -13,17 +13,46 @@ class StrategyVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // Example usage
+        let context = ContextStrategy(strategy: ConcreteStrategyA())
+        context.executeStrategy() // Output: Executing strategy A
+
+        context.setStrategy(strategy: ConcreteStrategyB())
+        context.executeStrategy() // Output: Executing strategy B
     }
-    
+}
 
-    /*
-    // MARK: - Navigation
+protocol Strategy {
+    func execute()
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+// Concrete strategy implementations
+struct ConcreteStrategyA: Strategy {
+    func execute() {
+        print("Executing strategy A")
     }
-    */
+}
 
+struct ConcreteStrategyB: Strategy {
+    func execute() {
+        print("Executing strategy B")
+    }
+}
+
+//MARK: Strategies Design pattern
+// ContextStrategy class that holds the current strategy
+class ContextStrategy {
+    private var strategy: Strategy
+
+    init(strategy: Strategy) {
+        self.strategy = strategy
+    }
+
+    func setStrategy(strategy: Strategy) {
+        self.strategy = strategy
+    }
+
+    func executeStrategy() {
+        strategy.execute()
+    }
 }

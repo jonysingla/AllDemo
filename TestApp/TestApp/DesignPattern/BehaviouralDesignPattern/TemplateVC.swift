@@ -13,17 +13,42 @@ class TemplateVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let roseGarden = RoseGarden()
+        roseGarden.prepare()
     }
+}
+
+protocol Garden {
+    func prepareSoil()
+    func plantSeeds()
+    func waterPlants()
+    func prepareGarden()
+}
+
+extension Garden {
+    func prepareGarden() {
+        prepareSoil()
+        plantSeeds()
+        waterPlants()
+    }
+}
+
+//MARK: Template Design Pattern
+final class RoseGarden: Garden {
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func prepare() {
+        prepareGarden()
     }
-    */
 
+    func prepareSoil() {
+        print ("prepare soil for rose garden")
+    }
+
+    func plantSeeds() {
+        print ("plant seeds for rose garden")
+    }
+
+    func waterPlants() {
+       print ("water the rose garden")
+    }
 }
