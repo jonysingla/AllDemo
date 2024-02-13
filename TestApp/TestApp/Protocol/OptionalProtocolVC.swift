@@ -47,3 +47,18 @@ class MyClassOptionalProtocol: MyOptionalProtocol {
      }
  }
 */
+
+/*
+// Second way to achieve this, but no solution
+@objc protocol TestProtocol {
+    @objc optional func addtionTwoNumer ()
+}
+
+extension TestProtocol  {
+    func addtionTwoNumer() {
+    }
+}
+
+struct TestOneTwo : TestProtocol  {
+}
+*/
