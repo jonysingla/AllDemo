@@ -33,3 +33,17 @@ class MyClassOptionalProtocol: MyOptionalProtocol {
     }
 }
 
+//MARK: Can we use optional protocol in struct? No, we can't achieve this by using extension also.
+/*
+ @objc protocol TestProtocol {
+     @objc optional func addtionTwoNumer ()
+ }
+
+ struct TestOneTwo  {
+ }
+
+ extension TestOneTwo : TestProtocol {
+     func addtionTwoNumer() {
+     }
+ }
+*/
