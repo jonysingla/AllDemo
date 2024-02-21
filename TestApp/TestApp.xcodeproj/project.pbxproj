@@ -31,6 +31,7 @@
 		F0546DF92B262CA50028D662 /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DF82B262CA50028D662 /* ProtocolViewController.swift */; };
 		F0546DFB2B26C6790028D662 /* HighOrderFunctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */; };
 		F0546DFD2B26D0320028D662 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DFC2B26D0320028D662 /* GenericViewController.swift */; };
+		F05594E92B864D6900B2C952 /* GenericModelCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05594E82B864D6900B2C952 /* GenericModelCodable.swift */; };
 		F068FBE92B272292004A71D5 /* InitalizatierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068FBE82B272292004A71D5 /* InitalizatierVC.swift */; };
 		F068FBEB2B27711C004A71D5 /* NilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068FBEA2B27711C004A71D5 /* NilViewController.swift */; };
 		F06A381B2B5A94C500C321BB /* GenericWithReturnValueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A381A2B5A94C500C321BB /* GenericWithReturnValueVC.swift */; };
@@ -133,6 +134,7 @@
 		F0546DF82B262CA50028D662 /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighOrderFunctionVC.swift; sourceTree = "<group>"; };
 		F0546DFC2B26D0320028D662 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		F05594E82B864D6900B2C952 /* GenericModelCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModelCodable.swift; sourceTree = "<group>"; };
 		F068FBE82B272292004A71D5 /* InitalizatierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitalizatierVC.swift; sourceTree = "<group>"; };
 		F068FBEA2B27711C004A71D5 /* NilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NilViewController.swift; sourceTree = "<group>"; };
 		F06A381A2B5A94C500C321BB /* GenericWithReturnValueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWithReturnValueVC.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 				F06A38202B5A993E00C321BB /* GenericTypeConstraintVC.swift */,
 				F0FF49132B5E331F003BA40D /* AssociatedTypeVC.swift */,
 				F0FF49152B5E5E25003BA40D /* GenericWhereClauseVC.swift */,
+				F05594E82B864D6900B2C952 /* GenericModelCodable.swift */,
 			);
 			path = Generic;
 			sourceTree = "<group>";
@@ -601,6 +604,7 @@
 				F072FAC42B6A691C003AF4A3 /* FlyweightVC.swift in Sources */,
 				F072FACC2B6CBB27003AF4A3 /* IteratorVC.swift in Sources */,
 				F032951C2B47CB3E005D3C2E /* TaskGroupVC.swift in Sources */,
+				F05594E92B864D6900B2C952 /* GenericModelCodable.swift in Sources */,
 				F0B0E4A72B5649450071400B /* ExtensionViewController.swift in Sources */,
 				F0B0E4A52B5640160071400B /* NestedTypesVC.swift in Sources */,
 				F06A381D2B5A956700C321BB /* GenericTypeVC.swift in Sources */,
