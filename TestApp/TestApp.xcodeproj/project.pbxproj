@@ -32,6 +32,7 @@
 		F0546DFB2B26C6790028D662 /* HighOrderFunctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */; };
 		F0546DFD2B26D0320028D662 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0546DFC2B26D0320028D662 /* GenericViewController.swift */; };
 		F05594E92B864D6900B2C952 /* GenericModelCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05594E82B864D6900B2C952 /* GenericModelCodable.swift */; };
+		F05594EB2B87186700B2C952 /* Semaphor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05594EA2B87186700B2C952 /* Semaphor.swift */; };
 		F068FBE92B272292004A71D5 /* InitalizatierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068FBE82B272292004A71D5 /* InitalizatierVC.swift */; };
 		F068FBEB2B27711C004A71D5 /* NilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068FBEA2B27711C004A71D5 /* NilViewController.swift */; };
 		F06A381B2B5A94C500C321BB /* GenericWithReturnValueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A381A2B5A94C500C321BB /* GenericWithReturnValueVC.swift */; };
@@ -135,6 +136,7 @@
 		F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighOrderFunctionVC.swift; sourceTree = "<group>"; };
 		F0546DFC2B26D0320028D662 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
 		F05594E82B864D6900B2C952 /* GenericModelCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModelCodable.swift; sourceTree = "<group>"; };
+		F05594EA2B87186700B2C952 /* Semaphor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semaphor.swift; sourceTree = "<group>"; };
 		F068FBE82B272292004A71D5 /* InitalizatierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitalizatierVC.swift; sourceTree = "<group>"; };
 		F068FBEA2B27711C004A71D5 /* NilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NilViewController.swift; sourceTree = "<group>"; };
 		F06A381A2B5A94C500C321BB /* GenericWithReturnValueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericWithReturnValueVC.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				F03295192B46BB26005D3C2E /* ConcurrentVC.swift */,
 				F032951B2B47CB3E005D3C2E /* TaskGroupVC.swift */,
 				F073C0F92B4BC44E00542EBE /* ActorVC.swift */,
+				F05594EA2B87186700B2C952 /* Semaphor.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -573,6 +576,7 @@
 				F0B0E4B22B57F6D70071400B /* SynthesizedProtocol.swift in Sources */,
 				F0B0E4AF2B57B1190071400B /* ProtocolExtensinVC.swift in Sources */,
 				F072FACA2B6CBB13003AF4A3 /* CommandVC.swift in Sources */,
+				F05594EB2B87186700B2C952 /* Semaphor.swift in Sources */,
 				F00C634E2B1F40E60032363B /* SetVC.swift in Sources */,
 				F0FF49142B5E331F003BA40D /* AssociatedTypeVC.swift in Sources */,
 				F0C1A6A92B6961DA007E8A43 /* AbstractFactoryVC.swift in Sources */,

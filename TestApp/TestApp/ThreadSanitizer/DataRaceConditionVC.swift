@@ -20,18 +20,23 @@ class DataRaceConditionVC: UIViewController {
     
     override func viewDidLoad()  {
         super.viewDidLoad()
-
+        
+        //MARK: Data Race Condition Occur
+        DispatchQueue.global().async {
+            self.name.append("Hello how are you")
+        }
+        print("name -- ",self.name)
+        
+        //MARK: Data race condition resolve 
         DispatchQueue.global().async {
             self.lockQueue.async {
-                //            self.name.append("Hello how are you")
                 print("name -- ",self.lazyName)
             }
         }
         
         //Execuated on main thread
         lockQueue.async {
-            //        print("name -- ",self.name)     // Error -- Swift access race in TestApp.ViewController.name.getter : Swift.String at 0x7b6000030000
-                    print("name -- ",self.lazyName)
+            print("name -- ",self.lazyName)
         }
     }
 }

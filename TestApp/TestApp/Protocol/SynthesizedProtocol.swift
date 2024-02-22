@@ -80,3 +80,17 @@ enum SkillLevel: Comparable {
 }
 
 
+//MARK: - Hashable with equtable protocol
+struct PersonTest123: Hashable {
+    var name: String
+    var age: Int
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+        hasher.combine(age)
+    }
+    
+    static func == (lhs: PersonTest123, rhs: PersonTest123) -> Bool {
+        return lhs.name == rhs.name && lhs.age == rhs.age
+    }
+}
