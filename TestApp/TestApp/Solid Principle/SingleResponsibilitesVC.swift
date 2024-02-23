@@ -8,7 +8,7 @@
 import UIKit
 
 //MARK: Before Single Responsibility
-class SIngleResponsibilitesVC: UIViewController {
+class SingleResponsibilitesVC: UIViewController {
     
     var empName: String = ""
     var empID: Int = 0
