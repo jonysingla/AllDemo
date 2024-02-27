@@ -12,6 +12,7 @@
 		F00E3E552B71F795009B6E10 /* HigherOrderFunctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E3E542B71F795009B6E10 /* HigherOrderFunctionVC.swift */; };
 		F00E3E582B720A42009B6E10 /* SortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E3E572B720A42009B6E10 /* SortVC.swift */; };
 		F01515182B612717005838B2 /* ARCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01515172B612717005838B2 /* ARCViewController.swift */; };
+		F01E3DF62B8DADA000B23EA1 /* CopyOnWriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E3DF52B8DADA000B23EA1 /* CopyOnWriteVC.swift */; };
 		F0283B912B1DD3D9003AA403 /* IdentityOperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */; };
 		F0283B932B1DD527003AA403 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */; };
 		F0283B952B1DDCA4003AA403 /* StringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0283B942B1DDCA4003AA403 /* StringVC.swift */; };
@@ -116,6 +117,7 @@
 		F00E3E542B71F795009B6E10 /* HigherOrderFunctionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunctionVC.swift; sourceTree = "<group>"; };
 		F00E3E572B720A42009B6E10 /* SortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortVC.swift; sourceTree = "<group>"; };
 		F01515172B612717005838B2 /* ARCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCViewController.swift; sourceTree = "<group>"; };
+		F01E3DF52B8DADA000B23EA1 /* CopyOnWriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyOnWriteVC.swift; sourceTree = "<group>"; };
 		F0283B902B1DD3D9003AA403 /* IdentityOperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityOperatorVC.swift; sourceTree = "<group>"; };
 		F0283B922B1DD527003AA403 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
 		F0283B942B1DDCA4003AA403 /* StringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringVC.swift; sourceTree = "<group>"; };
@@ -382,6 +384,7 @@
 			children = (
 				F0DB789D2B1739DA008FB987 /* TestApp */,
 				F03026852B7B3A6500F39237 /* DebugVSPrintVC.swift */,
+				F01E3DF52B8DADA000B23EA1 /* CopyOnWriteVC.swift */,
 				F0DB789C2B1739DA008FB987 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -433,12 +436,12 @@
 				F073C0FB2B4D060100542EBE /* MacroVC.swift */,
 				F0B0E4A42B5640160071400B /* NestedTypesVC.swift */,
 				F0B0E4A62B5649450071400B /* ExtensionViewController.swift */,
+				F0B0E4B02B57B1260071400B /* Protocol */,
+				F06A38192B5A947700C321BB /* Generic */,
 				F0DB78A42B1739DA008FB987 /* Main.storyboard */,
 				F0DB78A72B1739DC008FB987 /* Assets.xcassets */,
 				F0DB78A92B1739DC008FB987 /* LaunchScreen.storyboard */,
 				F0DB78AC2B1739DC008FB987 /* Info.plist */,
-				F0B0E4B02B57B1260071400B /* Protocol */,
-				F06A38192B5A947700C321BB /* Generic */,
 				F0546DFA2B26C6790028D662 /* HighOrderFunctionVC.swift */,
 				F0C1A69B2B678D8B007E8A43 /* ARC */,
 				F0C1A69E2B67D1C4007E8A43 /* MemorySafetyVC.swift */,
@@ -576,6 +579,7 @@
 				F0B0E4B22B57F6D70071400B /* SynthesizedProtocol.swift in Sources */,
 				F0B0E4AF2B57B1190071400B /* ProtocolExtensinVC.swift in Sources */,
 				F072FACA2B6CBB13003AF4A3 /* CommandVC.swift in Sources */,
+				F01E3DF62B8DADA000B23EA1 /* CopyOnWriteVC.swift in Sources */,
 				F05594EB2B87186700B2C952 /* Semaphor.swift in Sources */,
 				F00C634E2B1F40E60032363B /* SetVC.swift in Sources */,
 				F0FF49142B5E331F003BA40D /* AssociatedTypeVC.swift in Sources */,
